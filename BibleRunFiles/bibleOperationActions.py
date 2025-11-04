@@ -30,3 +30,10 @@ class BibleOperationActions:
                 return None
         except KeyError:
             return None
+
+
+from Bible_Content.GoodNews import *
+import pandas as pan
+
+bn = pan.read_csv('chapterOne.csv')
+print(bn)
