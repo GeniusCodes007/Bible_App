@@ -1,6 +1,6 @@
 from PySide6.QtGui import QFont
 from PySide6.QtWidgets import QPushButton
-from BibleHousingAndDisplay.re_assign_buttons import ReAssignButtons
+from BibleHousingAndDisplay.re_assign_buttons import *
 
 #chaptersNumberGridLayout
 class BooksButtons(ReAssignButtons):

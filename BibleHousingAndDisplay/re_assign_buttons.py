@@ -3,8 +3,7 @@ from PySide6.QtWidgets import QMainWindow
 
 from BibleHousingAndDisplay.ui_Bible_ui import Ui_MainWindow
 
-from BibleRunFiles.bibleCompilation import wholeBible
-
+from BibleRunFiles.bibleCompilation import *
 
 def changeText(name: PySide6.QtWidgets.QPushButton, text: str):
     name.setText(text)

@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="content_icons">
+    <file>bible_icon_2.jpeg</file>
+    <file>content_hidden.png</file>
+    <file>content_shown.png</file>
+  </qresource>
+  <qresource prefix="window_Icons">
+    <file>bible_icon.jpeg</file>
+    <file>bible_icon_2.jpeg</file>
+    <file>bible_icon_3.png</file>
+    <file>bible_icon_4.jpeg</file>
+    <file>bible_icon_5.jpeg</file>
+  </qresource>
+</RCC>

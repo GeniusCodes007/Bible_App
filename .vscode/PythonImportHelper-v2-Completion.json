@@ -32,14 +32,6 @@
         "documentation": {}
     },
     {
-        "label": "QPushButton",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
         "label": "QLabel",
         "importPath": "PySide6.QtWidgets",
         "description": "PySide6.QtWidgets",
@@ -152,7 +144,7 @@
         "documentation": {}
     },
     {
-        "label": "ChapterButtons",
+        "label": "*",
         "importPath": "BibleHousingAndDisplay.chapter_buttons",
         "description": "BibleHousingAndDisplay.chapter_buttons",
         "isExtraImport": true,
@@ -169,7 +161,7 @@
         "documentation": {}
     },
     {
-        "label": "BibleEdit",
+        "label": "*",
         "importPath": "bibleEdit",
         "description": "bibleEdit",
         "isExtraImport": true,
@@ -313,7 +305,7 @@
         "documentation": {}
     },
     {
-        "label": "ReAssignButtons",
+        "label": "*",
         "importPath": "BibleHousingAndDisplay.re_assign_buttons",
         "description": "BibleHousingAndDisplay.re_assign_buttons",
         "isExtraImport": true,
@@ -321,35 +313,11 @@
         "documentation": {}
     },
     {
-        "label": "BooksButtons",
+        "label": "*",
         "importPath": "BibleHousingAndDisplay.books_buttons",
         "description": "BibleHousingAndDisplay.books_buttons",
         "isExtraImport": true,
         "detail": "BibleHousingAndDisplay.books_buttons",
-        "documentation": {}
-    },
-    {
-        "label": "wholeBibleBooks",
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "isExtraImport": true,
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "wholeBibleBooks",
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "isExtraImport": true,
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "isExtraImport": true,
-        "detail": "BibleRunFiles.bibleCompilation",
         "documentation": {}
     },
     {
@@ -362,11 +330,35 @@
         "documentation": {}
     },
     {
+        "label": "QtCore",
+        "importPath": "PySide6",
+        "description": "PySide6",
+        "isExtraImport": true,
+        "detail": "PySide6",
+        "documentation": {}
+    },
+    {
         "label": "Ui_MainWindow",
         "importPath": "BibleHousingAndDisplay.ui_Bible_ui",
         "description": "BibleHousingAndDisplay.ui_Bible_ui",
         "isExtraImport": true,
         "detail": "BibleHousingAndDisplay.ui_Bible_ui",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "BibleRunFiles.bibleCompilation",
+        "description": "BibleRunFiles.bibleCompilation",
+        "isExtraImport": true,
+        "detail": "BibleRunFiles.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "BibleRunFiles.bibleCompilation",
+        "description": "BibleRunFiles.bibleCompilation",
+        "isExtraImport": true,
+        "detail": "BibleRunFiles.bibleCompilation",
         "documentation": {}
     },
     {
@@ -466,45 +458,36 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "Bible_Content.KingJamesVersion.BookOfJude",
-        "description": "Bible_Content.KingJamesVersion.BookOfJude",
-        "isExtraImport": true,
-        "detail": "Bible_Content.KingJamesVersion.BookOfJude",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "Bible_Content.GoodNews",
-        "description": "Bible_Content.GoodNews",
-        "isExtraImport": true,
-        "detail": "Bible_Content.GoodNews",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
+        "label": "my_bible_icons_rc",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "importPath": "my_bible_icons_rc",
+        "description": "my_bible_icons_rc",
+        "detail": "my_bible_icons_rc",
         "documentation": {}
     },
     {
-        "label": "Genesis",
-        "importPath": "Bible_Content.theNewJerusalemBible",
-        "description": "Bible_Content.theNewJerusalemBible",
+        "label": "*",
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
         "isExtraImport": true,
-        "detail": "Bible_Content.theNewJerusalemBible",
+        "detail": "BibleRunFiles.Bible_Books",
         "documentation": {}
     },
     {
-        "label": "runpy",
-        "kind": 6,
+        "label": "*",
+        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "isExtraImport": true,
-        "importPath": "runpy",
-        "description": "runpy",
-        "detail": "runpy",
+        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "documentation": {}
+    },
+    {
+        "label": "BookOfGenesis",
+        "importPath": "Bible_Content.TheNewJerusalemBible",
+        "description": "Bible_Content.TheNewJerusalemBible",
+        "isExtraImport": true,
+        "detail": "Bible_Content.TheNewJerusalemBible",
         "documentation": {}
     },
     {
@@ -547,7 +530,7 @@
         "kind": 6,
         "importPath": "BibleHousingAndDisplay.bibleWindowRun",
         "description": "BibleHousingAndDisplay.bibleWindowRun",
-        "peekOfCode": "class MainWindow(BibleEdit):\n    def __init__(self):\n        super().__init__()\n        self.chaptersNumberFrame.hide()\n        self.tabWidget.setCurrentIndex(0)\n        self.gn_book_label.setText(\"Genesis\")\n        self.gn_version_label.setText(\"Good News Version\")\n        self.amp_version_label.setText(\"Amplified Bible Version\")\n        self.kjv_version_label.setText(\"King James Version\")\n        self.njb_version_label.setText(\"New Jerusalem Bible\")",
+        "peekOfCode": "class MainWindow(BibleEdit):\n    def __init__(self):\n        super().__init__()\n        self.font2 = QFont()\n        self.font2.setFamilies([u\"Segoe UI\"])\n        self.font2.setPointSize(10)\n        self.font2.setBold(False)\n        self.font2.setItalic(False)\n        #Hide The Bible Book Frame\n        self.bibleBooksFrame.hide()",
         "detail": "BibleHousingAndDisplay.bibleWindowRun",
         "documentation": {}
     },
@@ -583,8 +566,53 @@
         "kind": 6,
         "importPath": "BibleHousingAndDisplay.chapter_buttons",
         "description": "BibleHousingAndDisplay.chapter_buttons",
-        "peekOfCode": "class ChapterButtons(BooksButtons):\n    def __init__(self):\n        super().__init__()\n        for x in range(150):\n            but = QPushButton(self.centralwidget)\n            but.setObjectName(f\"chap_but_{x + 1}\")\n            but.setText(f\"Chapter {x + 1}\")\n            self.chaptersNumberGridLayout.addWidget(but, x, 0)\n            if but.objectName() == f\"chap_but_1\":\n                but.clicked.connect(self.s_1)",
+        "peekOfCode": "class ChapterButtons(BooksButtons):\n    def __init__(self):\n        super().__init__()\n        for x in range(150):\n            but = QPushButton(self.centralwidget)\n            but.setObjectName(f\"chap_but_{x + 1}\")\n            but.setText(f\"Chapter {x + 1}\")\n            self.chaptersNumberGridLayout.addWidget(but, x, 0)\n            \"\"\"if but.objectName() == f\"chap_but_1\":\n                but.clicked.connect(self.s_1)",
         "detail": "BibleHousingAndDisplay.chapter_buttons",
+        "documentation": {}
+    },
+    {
+        "label": "qInitResources",
+        "kind": 2,
+        "importPath": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "description": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "peekOfCode": "def qInitResources():\n    QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\ndef qCleanupResources():\n    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\nqInitResources()",
+        "detail": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "documentation": {}
+    },
+    {
+        "label": "qCleanupResources",
+        "kind": 2,
+        "importPath": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "description": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "peekOfCode": "def qCleanupResources():\n    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\nqInitResources()",
+        "detail": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "documentation": {}
+    },
+    {
+        "label": "qt_resource_data",
+        "kind": 5,
+        "importPath": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "description": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "peekOfCode": "qt_resource_data = b\"\\\n\\x00\\x00\\x0b\\xc3\\\n\\x89\\\nPNG\\x0d\\x0a\\x1a\\x0a\\x00\\x00\\x00\\x0dIHDR\\x00\\\n\\x00\\x00\\xc3\\x00\\x00\\x001\\x08\\x06\\x00\\x00\\x00g%\\x1d\\xb8\\\n\\x00\\x00\\x00\\x01sRGB\\x00\\xae\\xce\\x1c\\xe9\\x00\\x00\\x00\\\n\\x04gAMA\\x00\\x00\\xb1\\x8f\\x0b\\xfca\\x05\\x00\\x00\\x00\\\n\\x09pHYs\\x00\\x00\\x0e\\xc3\\x00\\x00\\x0e\\xc3\\x01\\xc7o\\\n\\xa8d\\x00\\x00\\x0bXIDATx^\\xed\\x9de\\xc8\\\n\\x16K\\x14\\xc7\\xaf\\xbe\\xb6bww`b+\\x82\\x1d\\x18\\",
+        "detail": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "documentation": {}
+    },
+    {
+        "label": "qt_resource_name",
+        "kind": 5,
+        "importPath": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "description": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "peekOfCode": "qt_resource_name = b\"\\\n\\x00\\x0d\\\n\\x0e\\x94\\xffS\\\n\\x00c\\\n\\x00o\\x00n\\x00t\\x00e\\x00n\\x00t\\x00_\\x00i\\x00c\\x00o\\x00n\\x00s\\\n\\x00\\x12\\\n\\x0b\\x93\\xe3'\\\n\\x00c\\\n\\x00o\\x00n\\x00t\\x00e\\x00n\\x00t\\x00_\\x00h\\x00i\\x00d\\x00d\\x00e\\x00n\\x00.\\x00p\\x00n\\\n\\x00g\\",
+        "detail": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "documentation": {}
+    },
+    {
+        "label": "qt_resource_struct",
+        "kind": 5,
+        "importPath": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "description": "BibleHousingAndDisplay.my_bible_icons_rc",
+        "peekOfCode": "qt_resource_struct = b\"\\\n\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x01\\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x00 \\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x01\\x9am6\\xe6\\x9d\\\n\\x00\\x00\\x00J\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x0b\\xc7\\\n\\x00\\x00\\x01\\x9am8\\xed\\x07\\\n\"",
+        "detail": "BibleHousingAndDisplay.my_bible_icons_rc",
         "documentation": {}
     },
     {
@@ -610,7 +638,7 @@
         "kind": 6,
         "importPath": "BibleHousingAndDisplay.ui_Bible_ui",
         "description": "BibleHousingAndDisplay.ui_Bible_ui",
-        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(1131, 542)\n        MainWindow.setStyleSheet(u\"background-color: rgb(78, 157, 78);\")\n        self.centralwidget = QWidget(MainWindow)\n        self.centralwidget.setObjectName(u\"centralwidget\")\n        self.horizontalLayout = QHBoxLayout(self.centralwidget)\n        self.horizontalLayout.setObjectName(u\"horizontalLayout\")",
+        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(1131, 542)\n        icon = QIcon()\n        icon.addFile(u\":/content_icons/bible_icon_2.jpeg\", QSize(), QIcon.Mode.Normal, QIcon.State.Off)\n        MainWindow.setWindowIcon(icon)\n        MainWindow.setStyleSheet(u\"background-color: rgb(78, 157, 78);\")\n        self.centralwidget = QWidget(MainWindow)",
         "detail": "BibleHousingAndDisplay.ui_Bible_ui",
         "documentation": {}
     },
@@ -628,61 +656,16 @@
         "kind": 2,
         "importPath": "BibleRunFiles.bibleCompilation",
         "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "def allBooks():\n    for book in wholeBibleBooks:\n        print(book)\n#sort_A_to_Z(wholeBibleBooks)\n#allBooks()",
+        "peekOfCode": "def allBooks():\n    for book in wholeBible:\n        print(book)\ng = dict(zip([1,2,3], ['a', 'b', 'c']))\n#print(g)\nwholeBibleContent = \\\n    {\n        \"New Jerusalem\" : dict(),\n        \"Good News\": '',\n        \"King James\": '',",
         "detail": "BibleRunFiles.bibleCompilation",
         "documentation": {}
     },
     {
-        "label": "bibleVersions",
+        "label": "g",
         "kind": 5,
         "importPath": "BibleRunFiles.bibleCompilation",
         "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "bibleVersions = traditionalBibleVersions + modernBibleVersions\noldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\", \"1 Samuel\",\n                \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\", \"Ezra\", \"Nehemiah\", \"Esther\",\"Job\",\n                \"Psalms\", \"Proverbs\", \"Ecclesiastes\", \"Song of Songs\", \"Isaiah\", \"Jeremiah\", \"Lamentations\",\n                \"Ezekiel\", \"Daniel\", \"Hosea\", \"Joel\", \"Amos\", \"Obadiah\", \"Jonah\", \"Micah\", \"Nahum\", \"Habakkuk\",\n                \"Zephaniah\", \"Haggai\", \"Zechariah\", \"Malachi\",]\ndeuterocanonicalTestament = [\"Tobit\", \"Judith\", \"Esther(Greek)\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "oldTestament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "oldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\", \"1 Samuel\",\n                \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\", \"Ezra\", \"Nehemiah\", \"Esther\",\"Job\",\n                \"Psalms\", \"Proverbs\", \"Ecclesiastes\", \"Song of Songs\", \"Isaiah\", \"Jeremiah\", \"Lamentations\",\n                \"Ezekiel\", \"Daniel\", \"Hosea\", \"Joel\", \"Amos\", \"Obadiah\", \"Jonah\", \"Micah\", \"Nahum\", \"Habakkuk\",\n                \"Zephaniah\", \"Haggai\", \"Zechariah\", \"Malachi\",]\ndeuterocanonicalTestament = [\"Tobit\", \"Judith\", \"Esther(Greek)\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "deuterocanonicalTestament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "deuterocanonicalTestament = [\"Tobit\", \"Judith\", \"Esther(Greek)\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBibleBooks = oldTestament + deuterocanonicalTestament + newTestament\npentecostalBible = oldTestament + newTestament\nwholeBibleContent = \\\n    {\n        \"The New Jerusalem\" : {},",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "newTestament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "newTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBibleBooks = oldTestament + deuterocanonicalTestament + newTestament\npentecostalBible = oldTestament + newTestament\nwholeBibleContent = \\\n    {\n        \"The New Jerusalem\" : {},\n        \"Good News\": {},\n        \"King James\": {\"Jude\": {1: chapter_1}},",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "wholeBibleBooks",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "wholeBibleBooks = oldTestament + deuterocanonicalTestament + newTestament\npentecostalBible = oldTestament + newTestament\nwholeBibleContent = \\\n    {\n        \"The New Jerusalem\" : {},\n        \"Good News\": {},\n        \"King James\": {\"Jude\": {1: chapter_1}},\n        \"Amplified\": {}\n    }\ndef sort_A_to_Z(what_to_sort: list[str]):",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "pentecostalBible",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "pentecostalBible = oldTestament + newTestament\nwholeBibleContent = \\\n    {\n        \"The New Jerusalem\" : {},\n        \"Good News\": {},\n        \"King James\": {\"Jude\": {1: chapter_1}},\n        \"Amplified\": {}\n    }\ndef sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []",
+        "peekOfCode": "g = dict(zip([1,2,3], ['a', 'b', 'c']))\n#print(g)\nwholeBibleContent = \\\n    {\n        \"New Jerusalem\" : dict(),\n        \"Good News\": '',\n        \"King James\": '',\n        \"Amplified\": ''\n    }\nnew_jerusalem = {",
         "detail": "BibleRunFiles.bibleCompilation",
         "documentation": {}
     },
@@ -691,7 +674,16 @@
         "kind": 5,
         "importPath": "BibleRunFiles.bibleCompilation",
         "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "wholeBibleContent = \\\n    {\n        \"The New Jerusalem\" : {},\n        \"Good News\": {},\n        \"King James\": {\"Jude\": {1: chapter_1}},\n        \"Amplified\": {}\n    }\ndef sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []\n    print(len(what_to_sort))",
+        "peekOfCode": "wholeBibleContent = \\\n    {\n        \"New Jerusalem\" : dict(),\n        \"Good News\": '',\n        \"King James\": '',\n        \"Amplified\": ''\n    }\nnew_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": genesis_1, \"Chapter 2\": genesis_2, \"Chapter 3\": genesis_3, \"Chapter 4\": genesis_4}\n}",
+        "detail": "BibleRunFiles.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "new_jerusalem",
+        "kind": 5,
+        "importPath": "BibleRunFiles.bibleCompilation",
+        "description": "BibleRunFiles.bibleCompilation",
+        "peekOfCode": "new_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": genesis_1, \"Chapter 2\": genesis_2, \"Chapter 3\": genesis_3, \"Chapter 4\": genesis_4}\n}\n#print(new_jerusalem[\"Genesis\"]['Chapter 1'])\n#print(wholeBibleContent['New Jerusalem'])",
         "detail": "BibleRunFiles.bibleCompilation",
         "documentation": {}
     },
@@ -705,12 +697,57 @@
         "documentation": {}
     },
     {
-        "label": "bn",
+        "label": "oldTestament",
         "kind": 5,
-        "importPath": "BibleRunFiles.bibleOperationActions",
-        "description": "BibleRunFiles.bibleOperationActions",
-        "peekOfCode": "bn = pan.read_csv('chapterOne.csv')\nprint(bn)",
-        "detail": "BibleRunFiles.bibleOperationActions",
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
+        "peekOfCode": "oldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\", \"1 Samuel\",\n                \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\", \"Ezra\", \"Nehemiah\", \"Esther\",\"Job\",\n                \"Psalms\", \"Proverbs\", \"Ecclesiastes\", \"Song of Songs\", \"Isaiah\", \"Jeremiah\", \"Lamentations\",\n                \"Ezekiel\", \"Daniel\", \"Hosea\", \"Joel\", \"Amos\", \"Obadiah\", \"Jonah\", \"Micah\", \"Nahum\", \"Habakkuk\",\n                \"Zephaniah\", \"Haggai\", \"Zechariah\", \"Malachi\"]\ndeuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther(Greek)\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]",
+        "detail": "BibleRunFiles.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "deuterocanonical_Testament",
+        "kind": 5,
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
+        "peekOfCode": "deuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther(Greek)\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "BibleRunFiles.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "newTestament",
+        "kind": 5,
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
+        "peekOfCode": "newTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "BibleRunFiles.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "wholeBible",
+        "kind": 5,
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
+        "peekOfCode": "wholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "BibleRunFiles.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "pentecostalBible",
+        "kind": 5,
+        "importPath": "BibleRunFiles.Bible_Books",
+        "description": "BibleRunFiles.Bible_Books",
+        "peekOfCode": "pentecostalBible = oldTestament + newTestament",
+        "detail": "BibleRunFiles.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "bibleVersions",
+        "kind": 5,
+        "importPath": "BibleRunFiles.Translations",
+        "description": "BibleRunFiles.Translations",
+        "peekOfCode": "bibleVersions = traditionalBibleVersions + modernBibleVersions",
+        "detail": "BibleRunFiles.Translations",
         "documentation": {}
     },
     {
@@ -867,47 +904,56 @@
         "documentation": {}
     },
     {
-        "label": "chapter_1",
+        "label": "genesis_chapter_number",
         "kind": 5,
         "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "peekOfCode": "chapter_1 = \\\n    {\n1: \"In the beginning God created heaven and earth.\",\n2: \"Now the earth was a formless void, there was darkness over the deep, with a divine wind sweeping \\n\"\n   \"over the deep, \"\n    \"with a divine wind sweeping over the waters.\",\n3: \"God said, 'Let there be light,' and there was light.\",\n4: \"God saw that light was good, and God divided light from darkness.\",\n5: \"God called light 'day', and darkness he called 'night'. Evening came and morning came: the first day.\",\n6: \"God said, 'Let there be a vault through the middle of the waters to divide the waters in two.' And so it was.\",",
+        "peekOfCode": "genesis_chapter_number = []\nfor num in range(1, 51):\n    genesis_chapter_number.append(num)\ngenesis_1 = \\\n    {\n1: \"In the beginning God created heaven and earth.\",\n2: \"Now the earth was a formless void, there was darkness over the deep, with a divine wind sweeping \\n\"\n   \"over the deep, \"\n    \"with a divine wind sweeping over the waters.\",\n3: \"God said, 'Let there be light,' and there was light.\",",
         "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "documentation": {}
     },
     {
-        "label": "chapter_2",
+        "label": "genesis_1",
         "kind": 5,
         "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "peekOfCode": "chapter_2 = \\\n    {\n        1: \"Thus heaven and earth were completed with all their array.\",\n        2: \"On the seventh day God had completed the work he had been doing. \"\n           \"He rested on the seventh day after all the work he had been doing.\",\n        3: \"God blessed the seventh day and made it holy, because on that day he rested after all his work \"\n           \"\\nof creating.\",\n        4: \"Such was the story of heaven and earth as they were created. At the time when Yahweh God \\n\"\n           \"made earth and heaven\",\n        5: \"there was as yet no wild bush on the earth nor had any wild plant yet sprung up, for Yahweh God \\n\"",
+        "peekOfCode": "genesis_1 = \\\n    {\n1: \"In the beginning God created heaven and earth.\",\n2: \"Now the earth was a formless void, there was darkness over the deep, with a divine wind sweeping \\n\"\n   \"over the deep, \"\n    \"with a divine wind sweeping over the waters.\",\n3: \"God said, 'Let there be light,' and there was light.\",\n4: \"God saw that light was good, and God divided light from darkness.\",\n5: \"God called light 'day', and darkness he called 'night'. Evening came and morning came: the first day.\",\n6: \"God said, 'Let there be a vault through the middle of the waters to divide the waters in two.' And so it was.\",",
         "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "documentation": {}
     },
     {
-        "label": "chapter_3",
+        "label": "genesis_2",
         "kind": 5,
         "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "peekOfCode": "chapter_3 = \\\n    {\n        1: \"Now, the snake was the most subtle of all the wild animals that Yahweh God had made. \"\n           \"It asked the woman, 'Did God really say you were not to eat from any of the trees in the garden?\",\n        2: \"The woman answered the snake, 'We may eat th fruit of the trees in the garden.\",\n        3: \"But of the fruit of the tree in the middle of the garden God said, \\\"You must not eat it, \\n\"\n           \"nor touch it, under pain of death.\\\"'\",\n        4: \"Then the snake said to the woman, 'No! You will not die!\",\n        5: \"God knows in fact that the day you eat it your eyes will be opened and you will be like gods, \"\n           \"knowing good from evil, \",",
+        "peekOfCode": "genesis_2 = \\\n    {\n        1: \"Thus heaven and earth were completed with all their array.\",\n        2: \"On the seventh day God had completed the work he had been doing. \"\n           \"He rested on the seventh day after all the work he had been doing.\",\n        3: \"God blessed the seventh day and made it holy, because on that day he rested after all his work \"\n           \"\\nof creating.\",\n        4: \"Such was the story of heaven and earth as they were created. At the time when Yahweh God \\n\"\n           \"made earth and heaven\",\n        5: \"there was as yet no wild bush on the earth nor had any wild plant yet sprung up, for Yahweh God \\n\"",
         "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "documentation": {}
     },
     {
-        "label": "chapter_4",
+        "label": "genesis_3",
         "kind": 5,
         "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "peekOfCode": "chapter_4 = \\\n    {\n        1: \"The man had intercourse with his wife Eve, and she conceived and gave birth to Cain, \\n \"\n            \"'I have acquired a man with the help of Yahweh, ' she said.\"\n    }",
+        "peekOfCode": "genesis_3 = \\\n    {\n        1: \"Now, the snake was the most subtle of all the wild animals that Yahweh God had made. \"\n           \"It asked the woman, 'Did God really say you were not to eat from any of the trees in the garden?\",\n        2: \"The woman answered the snake, 'We may eat th fruit of the trees in the garden.\",\n        3: \"But of the fruit of the tree in the middle of the garden God said, \\\"You must not eat it, \\n\"\n           \"nor touch it, under pain of death.\\\"'\",\n        4: \"Then the snake said to the woman, 'No! You will not die!\",\n        5: \"God knows in fact that the day you eat it your eyes will be opened and you will be like gods, \"\n           \"knowing good from evil, \",",
         "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "documentation": {}
     },
     {
-        "label": "chapter_1",
+        "label": "genesis_4",
+        "kind": 5,
+        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "peekOfCode": "genesis_4 = \\\n    {\n        1: \"The man had intercourse with his wife Eve, and she conceived and gave birth to Cain, \\n \"\n            \"'I have acquired a man with the help of Yahweh, ' she said.\"\n    }",
+        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "documentation": {}
+    },
+    {
+        "label": "jude1",
         "kind": 5,
         "importPath": "Bible_Content.TheNewJerusalemBible.BookOfJude",
         "description": "Bible_Content.TheNewJerusalemBible.BookOfJude",
-        "peekOfCode": "chapter_1 = \\\n    {\n        1: \"From Jude, servant of Jesus Christ and brother of James; to those who are called, \"\n           \"to those who are dear to God the Father and kept safe for Jesus Christ,\",\n        2: \"mercy, peace and love be yours in abundance.\",\n        3: \"My dear friends, at a time when I was eagerly looking forward to writing to you about the \"\n           \"salvation that we all share, I felt that I must write to you encouraging you to fight \"\n           \"hard for the faith which has been once and for all entrusted to God's holy people.\",\n        4: \"Certain people have infiltrated among you, who were long ago marked down for condemnation on this account; \"\n           \"without any reverence they pervert the grace of our God to debauchery and deny all religion, \"",
+        "peekOfCode": "jude1 = \\\n    {\n        1: \"From Jude, servant of Jesus Christ and brother of James; to those who are called, \"\n           \"to those who are dear to God the Father and kept safe for Jesus Christ,\",\n        2: \"mercy, peace and love be yours in abundance.\",\n        3: \"My dear friends, at a time when I was eagerly looking forward to writing to you about the \"\n           \"salvation that we all share, I felt that I must write to you encouraging you to fight \"\n           \"hard for the faith which has been once and for all entrusted to God's holy people.\",\n        4: \"Certain people have infiltrated among you, who were long ago marked down for condemnation on this account; \"\n           \"without any reverence they pervert the grace of our God to debauchery and deny all religion, \"",
         "detail": "Bible_Content.TheNewJerusalemBible.BookOfJude",
         "documentation": {}
     },
@@ -916,7 +962,7 @@
         "kind": 6,
         "importPath": "Bible_References.concernings",
         "description": "Bible_References.concernings",
-        "peekOfCode": "class Concerning(Genesis):\n    def __init__(self, topic):\n        super().__init__()\n        self.topic = topic\n    concerningList= {1: \"Wisdom\",\n                     2: \"Enlightenment\",\n                     3: \"\"}\nclass BibleReferences:\n    versesWisdomEnlightenmentUnderstanding = {1: f\"Genesis 1 vs. 3 : {Genesis.chapterOne[3]}\"}\n    def __init__(self):",
+        "peekOfCode": "class Concerning:\n    def __init__(self, topic):\n        super().__init__()\n        self.topic = topic\n    concerningList= {1: \"Wisdom\",\n                     2: \"Enlightenment\",\n                     3: \"\"}\nclass BibleReferences:\n    versesWisdomEnlightenmentUnderstanding = {1: f\"Genesis 1 vs. 3 : {Genesis.chapterOne[3]}\"}\n    def __init__(self):",
         "detail": "Bible_References.concernings",
         "documentation": {}
     },
@@ -934,7 +980,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },
@@ -943,7 +989,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },
@@ -952,7 +998,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },
@@ -961,7 +1007,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },
@@ -970,7 +1016,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },
@@ -979,7 +1025,7 @@
         "kind": 5,
         "importPath": "venv.Scripts.activate_this",
         "description": "venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
         "detail": "venv.Scripts.activate_this",
         "documentation": {}
     },

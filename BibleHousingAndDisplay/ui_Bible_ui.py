@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Bible_uiKluOwy.ui'
+## Form generated from reading UI file 'Bible_uiTMNiUu.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.2
 ##
@@ -18,12 +18,16 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
     QLabel, QMainWindow, QPushButton, QScrollArea,
     QSizePolicy, QTabWidget, QVBoxLayout, QWidget)
+import my_bible_icons_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(1131, 542)
+        icon = QIcon()
+        icon.addFile(u":/content_icons/bible_icon_2.jpeg", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet(u"background-color: rgb(78, 157, 78);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
@@ -41,9 +45,21 @@ class Ui_MainWindow(object):
         self.leftScrollArea.setWidgetResizable(True)
         self.leftScrollAreaContents = QWidget()
         self.leftScrollAreaContents.setObjectName(u"leftScrollAreaContents")
-        self.leftScrollAreaContents.setGeometry(QRect(0, 0, 238, 2118))
+        self.leftScrollAreaContents.setGeometry(QRect(0, -1805, 238, 2313))
         self.verticalLayout_23 = QVBoxLayout(self.leftScrollAreaContents)
         self.verticalLayout_23.setObjectName(u"verticalLayout_23")
+        self.pushButton_content = QPushButton(self.leftScrollAreaContents)
+        self.pushButton_content.setObjectName(u"pushButton_content")
+        self.pushButton_content.setStyleSheet(u"background-color: rgb(121, 121, 90);")
+        icon1 = QIcon()
+        icon1.addFile(u":/content_icons/content_hidden.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        icon1.addFile(u":/content_icons/content_shown.png", QSize(), QIcon.Mode.Normal, QIcon.State.On)
+        self.pushButton_content.setIcon(icon1)
+        self.pushButton_content.setIconSize(QSize(100, 25))
+        self.pushButton_content.setCheckable(True)
+
+        self.verticalLayout_23.addWidget(self.pushButton_content)
+
         self.bibleBooksFrame = QFrame(self.leftScrollAreaContents)
         self.bibleBooksFrame.setObjectName(u"bibleBooksFrame")
         self.bibleBooksFrame.setMinimumSize(QSize(220, 2100))
@@ -858,6 +874,56 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_23.addWidget(self.bibleBooksFrame)
 
+        self.extras_Frame = QFrame(self.leftScrollAreaContents)
+        self.extras_Frame.setObjectName(u"extras_Frame")
+        self.extras_Frame.setMinimumSize(QSize(0, 150))
+        self.extras_Frame.setStyleSheet(u"QPushButton{\n"
+"	color: rgb(213, 213, 159);\n"
+"border-radius: 10px;\n"
+"	background-color: rgb(121, 121, 90);\n"
+"border-color: rgb(0, 0, 0);\n"
+"selection-background-color: rgb(170, 170, 127);\n"
+"selection-color: rgb(85, 170, 255);\n"
+"font: 10pt \"Segoe Print\";\n"
+"}")
+        self.extras_Frame.setFrameShape(QFrame.Shape.WinPanel)
+        self.extras_Frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_19 = QVBoxLayout(self.extras_Frame)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.pushButton_fun_facts = QPushButton(self.extras_Frame)
+        self.pushButton_fun_facts.setObjectName(u"pushButton_fun_facts")
+        self.pushButton_fun_facts.setFont(font2)
+        self.pushButton_fun_facts.setStyleSheet(u"background-color: rgb(121, 121, 90);")
+
+        self.verticalLayout_19.addWidget(self.pushButton_fun_facts)
+
+        self.pushButton_bible_study = QPushButton(self.extras_Frame)
+        self.pushButton_bible_study.setObjectName(u"pushButton_bible_study")
+        self.pushButton_bible_study.setFont(font2)
+        self.pushButton_bible_study.setStyleSheet(u"background-color: rgb(121, 121, 90);")
+
+        self.verticalLayout_19.addWidget(self.pushButton_bible_study)
+
+        self.pushButton_study_topic = QPushButton(self.extras_Frame)
+        self.pushButton_study_topic.setObjectName(u"pushButton_study_topic")
+        self.pushButton_study_topic.setFont(font2)
+        self.pushButton_study_topic.setStyleSheet(u"background-color: rgb(121, 121, 90);")
+
+        self.verticalLayout_19.addWidget(self.pushButton_study_topic)
+
+        self.pushButton_character = QPushButton(self.extras_Frame)
+        self.pushButton_character.setObjectName(u"pushButton_character")
+
+        self.verticalLayout_19.addWidget(self.pushButton_character)
+
+        self.pushButton_quit_app = QPushButton(self.extras_Frame)
+        self.pushButton_quit_app.setObjectName(u"pushButton_quit_app")
+
+        self.verticalLayout_19.addWidget(self.pushButton_quit_app)
+
+
+        self.verticalLayout_23.addWidget(self.extras_Frame)
+
         self.leftScrollArea.setWidget(self.leftScrollAreaContents)
 
         self.horizontalLayout.addWidget(self.leftScrollArea)
@@ -927,13 +993,7 @@ class Ui_MainWindow(object):
         self.gn_tab.setObjectName(u"gn_tab")
         self.verticalLayout_7 = QVBoxLayout(self.gn_tab)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.frame = QFrame(self.gn_tab)
-        self.frame.setObjectName(u"frame")
-        self.frame.setFrameShape(QFrame.Shape.WinPanel)
-        self.frame.setFrameShadow(QFrame.Shadow.Raised)
-        self.verticalLayout_8 = QVBoxLayout(self.frame)
-        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.frame_2 = QFrame(self.frame)
+        self.frame_2 = QFrame(self.gn_tab)
         self.frame_2.setObjectName(u"frame_2")
         self.frame_2.setMinimumSize(QSize(627, 54))
         self.frame_2.setMaximumSize(QSize(16777215, 100))
@@ -969,9 +1029,9 @@ class Ui_MainWindow(object):
         self.horizontalLayout_11.addWidget(self.gn_chapter_label)
 
 
-        self.verticalLayout_8.addWidget(self.frame_2)
+        self.verticalLayout_7.addWidget(self.frame_2)
 
-        self.frame_9 = QFrame(self.frame)
+        self.frame_9 = QFrame(self.gn_tab)
         self.frame_9.setObjectName(u"frame_9")
         self.frame_9.setMaximumSize(QSize(16777215, 41))
         self.frame_9.setFrameShape(QFrame.Shape.WinPanel)
@@ -982,6 +1042,7 @@ class Ui_MainWindow(object):
         self.gn_previous_pushButton.setObjectName(u"gn_previous_pushButton")
         self.gn_previous_pushButton.setMaximumSize(QSize(103, 24))
         self.gn_previous_pushButton.setFont(font1)
+        self.gn_previous_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_2.addWidget(self.gn_previous_pushButton, 0, Qt.AlignmentFlag.AlignLeft)
 
@@ -989,56 +1050,32 @@ class Ui_MainWindow(object):
         self.gn_next_pushButton.setObjectName(u"gn_next_pushButton")
         self.gn_next_pushButton.setMaximumSize(QSize(102, 24))
         self.gn_next_pushButton.setFont(font1)
+        self.gn_next_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_2.addWidget(self.gn_next_pushButton, 0, Qt.AlignmentFlag.AlignRight)
 
 
-        self.verticalLayout_8.addWidget(self.frame_9)
+        self.verticalLayout_7.addWidget(self.frame_9)
 
-        self.gn_outer_frame = QFrame(self.frame)
-        self.gn_outer_frame.setObjectName(u"gn_outer_frame")
-        self.gn_outer_frame.setMinimumSize(QSize(605, 347))
-        self.gn_outer_frame.setFrameShape(QFrame.Shape.WinPanel)
-        self.gn_outer_frame.setFrameShadow(QFrame.Shadow.Raised)
-        self.verticalLayout_15 = QVBoxLayout(self.gn_outer_frame)
-        self.verticalLayout_15.setObjectName(u"verticalLayout_15")
-        self.gnScrollArea = QScrollArea(self.gn_outer_frame)
-        self.gnScrollArea.setObjectName(u"gnScrollArea")
-        self.gnScrollArea.setMinimumSize(QSize(605, 360))
-        self.gnScrollArea.setStyleSheet(u"background-color: rgb(0, 170, 127);")
-        self.gnScrollArea.setFrameShape(QFrame.Shape.WinPanel)
-        self.gnScrollArea.setFrameShadow(QFrame.Shadow.Raised)
-        self.gnScrollArea.setWidgetResizable(True)
-        self.gnScrollAreaContents = QWidget()
-        self.gnScrollAreaContents.setObjectName(u"gnScrollAreaContents")
-        self.gnScrollAreaContents.setGeometry(QRect(0, 0, 589, 718))
-        self.gnScrollAreaContents.setMinimumSize(QSize(589, 718))
-        self.verticalLayout_16 = QVBoxLayout(self.gnScrollAreaContents)
-        self.verticalLayout_16.setObjectName(u"verticalLayout_16")
-        self.gn_inner_frame = QFrame(self.gnScrollAreaContents)
-        self.gn_inner_frame.setObjectName(u"gn_inner_frame")
-        self.gn_inner_frame.setMinimumSize(QSize(460, 680))
-        self.gn_inner_frame.setFrameShape(QFrame.Shape.WinPanel)
-        self.gn_inner_frame.setFrameShadow(QFrame.Shadow.Raised)
-        self.horizontalLayout_14 = QHBoxLayout(self.gn_inner_frame)
-        self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
+        self.gn_scrollArea = QScrollArea(self.gn_tab)
+        self.gn_scrollArea.setObjectName(u"gn_scrollArea")
+        self.gn_scrollArea.setMinimumSize(QSize(560, 450))
+        self.gn_scrollArea.setFrameShape(QFrame.Shape.WinPanel)
+        self.gn_scrollArea.setFrameShadow(QFrame.Shadow.Raised)
+        self.gn_scrollArea.setWidgetResizable(True)
+        self.scrollAreaWidgetContents_3 = QWidget()
+        self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 623, 446))
+        self.verticalLayout_8 = QVBoxLayout(self.scrollAreaWidgetContents_3)
+        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.gn_gridLayout = QGridLayout()
         self.gn_gridLayout.setObjectName(u"gn_gridLayout")
 
-        self.horizontalLayout_14.addLayout(self.gn_gridLayout)
+        self.verticalLayout_8.addLayout(self.gn_gridLayout)
 
+        self.gn_scrollArea.setWidget(self.scrollAreaWidgetContents_3)
 
-        self.verticalLayout_16.addWidget(self.gn_inner_frame)
-
-        self.gnScrollArea.setWidget(self.gnScrollAreaContents)
-
-        self.verticalLayout_15.addWidget(self.gnScrollArea)
-
-
-        self.verticalLayout_8.addWidget(self.gn_outer_frame)
-
-
-        self.verticalLayout_7.addWidget(self.frame)
+        self.verticalLayout_7.addWidget(self.gn_scrollArea)
 
         self.tabWidget.addTab(self.gn_tab, "")
         self.amp_tab = QWidget()
@@ -1089,6 +1126,7 @@ class Ui_MainWindow(object):
         self.amp_previous_pushButton.setObjectName(u"amp_previous_pushButton")
         self.amp_previous_pushButton.setMaximumSize(QSize(103, 24))
         self.amp_previous_pushButton.setFont(font1)
+        self.amp_previous_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_4.addWidget(self.amp_previous_pushButton, 0, Qt.AlignmentFlag.AlignLeft)
 
@@ -1096,6 +1134,7 @@ class Ui_MainWindow(object):
         self.amp_next_pushButton.setObjectName(u"amp_next_pushButton")
         self.amp_next_pushButton.setMaximumSize(QSize(102, 24))
         self.amp_next_pushButton.setFont(font1)
+        self.amp_next_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_4.addWidget(self.amp_next_pushButton, 0, Qt.AlignmentFlag.AlignRight)
 
@@ -1117,7 +1156,7 @@ class Ui_MainWindow(object):
         self.amp_ScrollArea.setWidgetResizable(True)
         self.gnScrollAreaContents_2 = QWidget()
         self.gnScrollAreaContents_2.setObjectName(u"gnScrollAreaContents_2")
-        self.gnScrollAreaContents_2.setGeometry(QRect(0, 0, 589, 388))
+        self.gnScrollAreaContents_2.setGeometry(QRect(0, -45, 589, 388))
         self.verticalLayout_11 = QVBoxLayout(self.gnScrollAreaContents_2)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.amp_inner_frame = QFrame(self.gnScrollAreaContents_2)
@@ -1191,6 +1230,7 @@ class Ui_MainWindow(object):
         self.kjv_previous_pushButton.setObjectName(u"kjv_previous_pushButton")
         self.kjv_previous_pushButton.setMaximumSize(QSize(103, 24))
         self.kjv_previous_pushButton.setFont(font1)
+        self.kjv_previous_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_6.addWidget(self.kjv_previous_pushButton, 0, Qt.AlignmentFlag.AlignLeft)
 
@@ -1198,6 +1238,7 @@ class Ui_MainWindow(object):
         self.kjv_next_pushButton.setObjectName(u"kjv_next_pushButton")
         self.kjv_next_pushButton.setMaximumSize(QSize(102, 24))
         self.kjv_next_pushButton.setFont(font1)
+        self.kjv_next_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_6.addWidget(self.kjv_next_pushButton, 0, Qt.AlignmentFlag.AlignRight)
 
@@ -1293,6 +1334,7 @@ class Ui_MainWindow(object):
         self.njb_previous_pushButton.setObjectName(u"njb_previous_pushButton")
         self.njb_previous_pushButton.setMaximumSize(QSize(103, 24))
         self.njb_previous_pushButton.setFont(font1)
+        self.njb_previous_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_8.addWidget(self.njb_previous_pushButton, 0, Qt.AlignmentFlag.AlignLeft)
 
@@ -1300,6 +1342,7 @@ class Ui_MainWindow(object):
         self.njb_next_pushButton.setObjectName(u"njb_next_pushButton")
         self.njb_next_pushButton.setMaximumSize(QSize(102, 24))
         self.njb_next_pushButton.setFont(font1)
+        self.njb_next_pushButton.setStyleSheet(u"background-color: rgb(121, 121, 90);")
 
         self.horizontalLayout_8.addWidget(self.njb_next_pushButton, 0, Qt.AlignmentFlag.AlignRight)
 
@@ -1321,23 +1364,13 @@ class Ui_MainWindow(object):
         self.njb_ScrollArea.setWidgetResizable(True)
         self.gnScrollAreaContents_4 = QWidget()
         self.gnScrollAreaContents_4.setObjectName(u"gnScrollAreaContents_4")
-        self.gnScrollAreaContents_4.setGeometry(QRect(0, 0, 589, 388))
-        self.verticalLayout_13 = QVBoxLayout(self.gnScrollAreaContents_4)
-        self.verticalLayout_13.setObjectName(u"verticalLayout_13")
-        self.njb_inner_frame = QFrame(self.gnScrollAreaContents_4)
-        self.njb_inner_frame.setObjectName(u"njb_inner_frame")
-        self.njb_inner_frame.setMinimumSize(QSize(490, 370))
-        self.njb_inner_frame.setFrameShape(QFrame.Shape.WinPanel)
-        self.njb_inner_frame.setFrameShadow(QFrame.Shadow.Raised)
-        self.horizontalLayout_9 = QHBoxLayout(self.njb_inner_frame)
-        self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
-        self.amp_gridLayout_4 = QGridLayout()
-        self.amp_gridLayout_4.setObjectName(u"amp_gridLayout_4")
+        self.gnScrollAreaContents_4.setGeometry(QRect(0, 0, 601, 343))
+        self.horizontalLayout_3 = QHBoxLayout(self.gnScrollAreaContents_4)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.njb_gridLayout = QGridLayout()
+        self.njb_gridLayout.setObjectName(u"njb_gridLayout")
 
-        self.horizontalLayout_9.addLayout(self.amp_gridLayout_4)
-
-
-        self.verticalLayout_13.addWidget(self.njb_inner_frame)
+        self.horizontalLayout_3.addLayout(self.njb_gridLayout)
 
         self.njb_ScrollArea.setWidget(self.gnScrollAreaContents_4)
 
@@ -1361,7 +1394,8 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Bible", None))
+        self.pushButton_content.setText("")
         self.pushButton_55.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_70.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_26.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
@@ -1440,6 +1474,11 @@ class Ui_MainWindow(object):
         self.pushButton_47.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_17.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_78.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_fun_facts.setText(QCoreApplication.translate("MainWindow", u"Bible Fun Facts", None))
+        self.pushButton_bible_study.setText(QCoreApplication.translate("MainWindow", u"Bible Study Plan", None))
+        self.pushButton_study_topic.setText(QCoreApplication.translate("MainWindow", u"Study Topics", None))
+        self.pushButton_character.setText(QCoreApplication.translate("MainWindow", u"Study Character", None))
+        self.pushButton_quit_app.setText(QCoreApplication.translate("MainWindow", u"Quit App", None))
         self.book_name_label.setText(QCoreApplication.translate("MainWindow", u"Book Name Label", None))
         self.gn_version_label.setText(QCoreApplication.translate("MainWindow", u"Version", None))
         self.gn_book_label.setText(QCoreApplication.translate("MainWindow", u"Book Label", None))

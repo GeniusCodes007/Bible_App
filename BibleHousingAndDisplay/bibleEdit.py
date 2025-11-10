@@ -12,7 +12,7 @@ show: when book_button is toggled
 
 """
 from PySide6.QtWidgets import QPushButton
-from BibleHousingAndDisplay.chapter_buttons import ChapterButtons
+from BibleHousingAndDisplay.chapter_buttons import *
 
 
 

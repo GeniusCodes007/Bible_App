@@ -1,4 +1,15 @@
-from bible_books import wholeBible, pentecostalBible
+from typing import List
+
+def no_chapters(book: str, chapters:int)-> List:
+    _list = []
+    for num_ in range(chapters):
+        _list.append(f"{book} {num_ + 1}")
+    return _list
+
+print(no_chapters("Genesis", 31))
+
+
+from BibleRunFiles.Bible_Books import *
 from Bible_Content.TheNewJerusalemBible.BookOfGenesis import *
 
 def sort_A_to_Z(what_to_sort: list[str]):
@@ -15,20 +26,8 @@ def allBooks():
     for book in wholeBible:
         print(book)
 
-g = dict(zip([1,2,3], ['a', 'b', 'c']))
-#print(g)
-
-wholeBibleContent = \
-    {
-        "New Jerusalem" : dict(),
-        "Good News": '',
-        "King James": '',
-        "Amplified": ''
-    }
 
 new_jerusalem = {
     "Genesis": {"Chapter 1": genesis_1, "Chapter 2": genesis_2, "Chapter 3": genesis_3, "Chapter 4": genesis_4}
 }
-print(new_jerusalem["Genesis"]['Chapter 1'][14])
 
-#print(wholeBibleContent['New Jerusalem'])
