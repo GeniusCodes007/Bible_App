@@ -1,6 +1,6 @@
-from Bible_Content.theNewJerusalemBible import Genesis
+from Bible_Content.TheNewJerusalemBible import BookOfGenesis
 
-class Concerning(Genesis):
+class Concerning:
     def __init__(self, topic):
         super().__init__()
         self.topic = topic

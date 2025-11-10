@@ -1,6 +1,9 @@
+genesis_chapter_number = []
 
+for num in range(1, 51):
+    genesis_chapter_number.append(num)
 
-chapter_1 = \
+genesis_1 = \
     {
 1: "In the beginning God created heaven and earth.",
 2: "Now the earth was a formless void, there was darkness over the deep, with a divine wind sweeping \n"
@@ -56,7 +59,7 @@ chapter_1 = \
 31: "God saw all he had made, and indeed it was very good. Evening came and morning came: the sixth day."
     }
 
-chapter_2 = \
+genesis_2 = \
     {
         1: "Thus heaven and earth were completed with all their array.",
         2: "On the seventh day God had completed the work he had been doing. "
@@ -101,7 +104,7 @@ chapter_2 = \
         25: "Now, both of them were naked, the man and his wife, but they felt no shame before each other."
     }
 
-chapter_3 = \
+genesis_3 = \
     {
         1: "Now, the snake was the most subtle of all the wild animals that Yahweh God had made. "
            "It asked the woman, 'Did God really say you were not to eat from any of the trees in the garden?",
@@ -149,7 +152,7 @@ chapter_3 = \
             "and the fiery flashing sword, to guard the way to the tree of life."
     }
 
-chapter_4 = \
+genesis_4 = \
     {
         1: "The man had intercourse with his wife Eve, and she conceived and gave birth to Cain, \n "
             "'I have acquired a man with the help of Yahweh, ' she said."

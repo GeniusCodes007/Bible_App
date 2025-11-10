@@ -1,5 +1,5 @@
 
-chapter_1 = \
+jude1 = \
     {
         1: "From Jude, servant of Jesus Christ and brother of James; to those who are called, "
            "to those who are dear to God the Father and kept safe for Jesus Christ,",
