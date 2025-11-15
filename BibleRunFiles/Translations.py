@@ -1,6 +1,6 @@
 
-traditionalBibleVersions= ["The New Jerusalem", "Good News"]
+catholicBible= ["The New Jerusalem", "Good News"]
 
-modernBibleVersions= ["King James", "Amplified"]
+pentecostalBible= ["King James", "Amplified"]
 
-bibleVersions = traditionalBibleVersions + modernBibleVersions
+bibleVersions = catholicBible + pentecostalBible

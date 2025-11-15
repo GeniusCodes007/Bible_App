@@ -1,20 +1,5 @@
-"""
-FEATURES:
 
-Books Buttons:
-AutoExclusive - True
-checkable - True
-checked - False, but for Genesis - True
-
-Chapter Frames:
-setHidden - True
-show: when book_button is toggled
-
-"""
-from PySide6.QtWidgets import QPushButton
-from BibleHousingAndDisplay.chapter_buttons import *
-
-
+from chapter_buttons import *
 
 
 class BibleEdit(ChapterButtons):
@@ -22,49 +7,87 @@ class BibleEdit(ChapterButtons):
         super().__init__()
 
 
-
-
-
         #Traditional Old Testament
-        self.genesis.toggled.connect(self.genesis_button_function)
-        self.exodus.toggled.connect(self.exodus_button_function)
-        self.leviticus.toggled.connect(self.leviticus_button_function)
-        self.numbers.toggled.connect(self.numbers_button_function)
-        self.deuteronomy.toggled.connect(self.deuteronomy_button_function)
-        self.joshua.toggled.connect(self.joshua_button_function)
-        self.judges.toggled.connect(self.judges_button_function)
-        self.ruth.toggled.connect(self.ruth_button_function)
-        self.sam_1.toggled.connect(self.sam_1_button_function)
-        self.sam_2.toggled.connect(self.sam_2_button_function)
-        self.kings_1.toggled.connect(self.kings_1_button_function)
-        self.kings_2.toggled.connect(self.kings_2_button_function)
-        self.chronicles_1.toggled.connect(self.chronicles_1_button_function)
-        self.chronicles_2.toggled.connect(self.chronicles_2_button_function)
-        self.ezra.toggled.connect(self.ezra_button_function)
-        self.nehemiah.toggled.connect(self.nehemiah_button_function)
-        self.esther.toggled.connect(self.esther_button_function)
-        self.job.toggled.connect(self.job_button_function)
-        self.psalms.toggled.connect(self.psalms_button_function)
-        self.proverbs.toggled.connect(self.proverbs_button_function)
-        self.ecclesiastes.toggled.connect(self.ecclesiastes_button_function)
-        self.song_of_songs_solomon.toggled.connect(self.song_of_songs_solomon_button_function)
-        self.isaiah.toggled.connect(self.isaiah_button_function)
-        self.jeremiah.toggled.connect(self.jeremiah_button_function)
-        self.lamentations.toggled.connect(self.lamentations_button_function)
-        self.ezekiel.toggled.connect(self.ezekiel_button_function)
-        self.daniel.toggled.connect(self.daniel_button_function)
-        self.hosea.toggled.connect(self.hosea_button_function)
-        self.joel.toggled.connect(self.joel_button_function)
-        self.amos.toggled.connect(self.amos_button_function)
-        self.obadiah.toggled.connect(self.obadiah_button_function)
-        self.jonah.toggled.connect(self.jonah_button_function)
-        self.micah.toggled.connect(self.micah_button_function)
-        self.nahum.toggled.connect(self.nahum_button_function)
-        self.habakkuk.toggled.connect(self.habakkuk_button_function)
-        self.zephaniah.toggled.connect(self.zephaniah_button_function)
-        self.haggai.toggled.connect(self.haggai_button_function)
-        self.zechariah.toggled.connect(self.zechariah_button_function)
-        self.malachi.toggled.connect(self.malachi_button_function)
+        self.genesis.toggled.connect(self.genesis_function)
+        self.exodus.toggled.connect(self.exodus_function)
+        self.leviticus.toggled.connect(self.leviticus_function)
+        self.numbers.toggled.connect(self.numbers_function)
+        self.deuteronomy.toggled.connect(self.deuteronomy_function)
+        self.joshua.toggled.connect(self.joshua_function)
+        self.judges.toggled.connect(self.judges_function)
+        self.ruth.toggled.connect(self.ruth_function)
+        self.sam_1.toggled.connect(self._1_sam_function)
+        self.sam_2.toggled.connect(self._2_sam_function)
+        self.kings_1.toggled.connect(self._1_kings_function)
+        self.kings_2.toggled.connect(self._2_kings_function)
+        self.chronicles_1.toggled.connect(self._1_chronicles_function)
+        self.chronicles_2.toggled.connect(self._2_chronicles_function)
+        self.ezra.toggled.connect(self.ezra_function)
+        self.nehemiah.toggled.connect(self.nehemiah_function)
+        self.esther.toggled.connect(self.esther_function)
+        self.job.toggled.connect(self.job_function)
+        self.psalms.toggled.connect(self.psalms_function)
+        self.proverbs.toggled.connect(self.proverbs_function)
+        self.ecclesiastes.toggled.connect(self.ecclesiastes_function)
+        self.song_of_songs_solomon.toggled.connect(self.song_of_songs_solomon_function)
+        self.isaiah.toggled.connect(self.isaiah_function)
+        self.jeremiah.toggled.connect(self.jeremiah_function)
+        self.lamentations.toggled.connect(self.lamentations_function)
+        self.ezekiel.toggled.connect(self.ezekiel_function)
+        self.daniel.toggled.connect(self.daniel_function)
+        self.hosea.toggled.connect(self.hosea_function)
+        self.joel.toggled.connect(self.joel_function)
+        self.amos.toggled.connect(self.amos_function)
+        self.obadiah.toggled.connect(self.obadiah_function)
+        self.jonah.toggled.connect(self.jonah_function)
+        self.micah.toggled.connect(self.micah_function)
+        self.nahum.toggled.connect(self.nahum_function)
+        self.habakkuk.toggled.connect(self.habakkuk_function)
+        self.zephaniah.toggled.connect(self.zephaniah_function)
+        self.haggai.toggled.connect(self.haggai_function)
+        self.zechariah.toggled.connect(self.zechariah_function)
+        self.malachi.toggled.connect(self.malachi_function)
 
         #Deuterocanonical Books
+        self.tobit.toggled.connect(self.tobit_function)
+        self.judith.toggled.connect(self.judith_function)
+        self.esther_greek.toggled.connect(self.esther_greek_function)
+        self.wisdom_of_solomon.toggled.connect(self.wisdom_of_solomon_function)
+        self.sirach.toggled.connect(self.sirach_function)
+        self.baruch.toggled.connect(self.baruch_function)
+        self.letter_of_jeremiah.toggled.connect(self.letter_of_jeremiah_function)
+        self.song_of_young_men.toggled.connect(self.song_of_the_three_young_men_function)
+        self.susana.toggled.connect(self.susana_function)
+        self.bel_and_the_dragon.toggled.connect(self.bel_and_dragon_function)
+        self.maccabees_1.toggled.connect(self._1_maccabees_function)
+        self.maccabees_2.toggled.connect(self._2_maccabees_function)
 
+        # New Testament
+
+        self.matthew.toggled.connect(self.matthew_function)
+        self.mark.toggled.connect(self.mark_function)
+        self.luke.toggled.connect(self.luke_function)
+        self.john.toggled.connect(self.john_function)
+        self.acts.toggled.connect(self.acts_function)
+        self.romans.toggled.connect(self.romans_function)
+        self.corinth_1.toggled.connect(self._1_corinthians_function)
+        self.corinth_2.toggled.connect(self._2_corinthians_function)
+        self.galatians.toggled.connect(self.galatians_function)
+        self.ephesians.toggled.connect(self.ephesians_function)
+        self.philippians.toggled.connect(self.philippians_function)
+        self.colossians.toggled.connect(self.colossians_function)
+        self.thessalonians_1.toggled.connect(self._1_thessalonians_function)
+        self.thessalonians_2.toggled.connect(self._2_thessalonians_function)
+        self.timothy_1.toggled.connect(self._1_timothy_function)
+        self.timothy_2.toggled.connect(self._2_timothy_function)
+        self.titus.toggled.connect(self.titus_function)
+        self.philemon.toggled.connect(self.philemon_function)
+        self.hebrews.toggled.connect(self.hebrews_function)
+        self.james.toggled.connect(self.james_function)
+        self.peter_1.toggled.connect(self._1_peter_function)
+        self.peter_2.toggled.connect(self._2_peter_function)
+        self.john_1.toggled.connect(self._1_john_function)
+        self.john_2.toggled.connect(self._2_john_function)
+        self.john_3.toggled.connect(self._3_john_function)
+        self.jude.toggled.connect(self.jude_function)
+        self.revelation.toggled.connect(self.revelation_function)

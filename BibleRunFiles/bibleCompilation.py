@@ -6,7 +6,7 @@ def no_chapters(book: str, chapters:int)-> List:
         _list.append(f"{book} {num_ + 1}")
     return _list
 
-print(no_chapters("Genesis", 31))
+#print(no_chapters("Genesis", 31))
 
 
 from BibleRunFiles.Bible_Books import *
@@ -28,6 +28,5 @@ def allBooks():
 
 
 new_jerusalem = {
-    "Genesis": {"Chapter 1": genesis_1, "Chapter 2": genesis_2, "Chapter 3": genesis_3, "Chapter 4": genesis_4}
+    "Genesis": {"Chapter 1": Njb_Genesis.genesis_1, "Chapter 2": Njb_Genesis.genesis_2, "Chapter 3": Njb_Genesis.genesis_3, "Chapter 4": Njb_Genesis.genesis_4}
 }
-

@@ -1,7 +1,9 @@
+# Re-assign button values to suit purpose
+
 import PySide6
 from PySide6.QtWidgets import QMainWindow
 
-from BibleHousingAndDisplay.ui_Bible_ui import Ui_MainWindow
+from ui_Bible_ui import Ui_MainWindow
 
 from BibleRunFiles.bibleCompilation import *
 
@@ -12,89 +14,12 @@ def changeText(name: PySide6.QtWidgets.QPushButton, text: str):
 class ReAssignButtons(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        self.genesis = None
-        self.exodus = None
-        self.leviticus = None
-        self.numbers = None
-        self.deuteronomy = None
-        self.joshua = None
-        self.judges = None
-        self.ruth = None
-        self.sam_1 = None
-        self.sam_2 = None
-        self.kings_1 = None
-        self.kings_2 = None
-        self.chronicles_1 = None
-        self.chronicles_2 = None
-        self.ezra = None
-        self.nehemiah = None
-        self.esther = None
-        self.job = None
-        self.psalms = None
-        self.proverbs = None
-        self.ecclesiastes = None
-        self.song_of_songs_solomon = None
-        self.isaiah = None
-        self.jeremiah = None
-        self.lamentations = None
-        self.ezekiel = None
-        self.daniel = None
-        self.hosea = None
-        self.joel = None
-        self.amos = None
-        self.obadiah = None
-        self.jonah = None
-        self.micah = None
-        self.nahum = None
-        self.habakkuk = None
-        self.zephaniah = None
-        self.haggai = None
-        self.zechariah = None
-        self.malachi = None
-        self.tobit = None
-        self.judith = None
-        self.esther_greek = None
-        self.wisdom_of_solomon = None
-        self.sirach = None
-        self.baruch = None
-        self.letter_of_jeremiah = None
-        self.song_of_young_men = None
-        self.susana = None
-        self.bel_and_the_dragon = None
-        self.maccabees_1 = None
-        self.maccabees_2 = None
-        self.matthew = None
-        self.mark = None
-        self.luke = None
-        self.john = None
-        self.acts = None
-        self.romans = None
-        self.corinth_1 = None
-        self.corinth_2 = None
-        self.galatians = None
-        self.ephesians = None
-        self.philippians = None
-        self.colossians = None
-        self.thessalonians_1 = None
-        self.thessalonians_2 = None
-        self.timothy_1 = None
-        self.timothy_2 = None
-        self.titus = None
-        self.philemon = None
-        self.hebrews = None
-        self.james = None
-        self.peter_1 = None
-        self.peter_2 = None
-        self.john_1 = None
-        self.john_2 = None
-        self.john_3 = None
-        self.jude = None
-        self.revelation = None
+
         self.setupUi(self)
 
-        self.re_assign()
+        # I assign the push buttons new values, based on the values in the 'wholeBible' variable in bibleCompilation.py
 
-    def re_assign(self):
+        # Old Testament
         self.genesis = self.pushButton
         changeText(self.genesis, wholeBible[0])
 
@@ -212,6 +137,7 @@ class ReAssignButtons(QMainWindow, Ui_MainWindow):
         self.malachi = self.pushButton_39
         changeText(self.malachi, wholeBible[38])
 
+        # Deuterocanonical Books
         self.tobit = self.pushButton_40
         changeText(self.tobit, wholeBible[39])
 
@@ -248,6 +174,7 @@ class ReAssignButtons(QMainWindow, Ui_MainWindow):
         self.maccabees_2 = self.pushButton_51
         changeText(self.maccabees_2, wholeBible[50])
 
+        # New Testament
         self.matthew = self.pushButton_52
         changeText(self.matthew, wholeBible[51])
 

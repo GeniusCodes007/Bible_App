@@ -14,3 +14,5 @@ newTestament = ["Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthi
 
 wholeBible = oldTestament + deuterocanonical_Testament + newTestament
 pentecostalBible = oldTestament + newTestament
+print(newTestament)
+#print(len(newTestament))
