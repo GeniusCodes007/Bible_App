@@ -1,6 +1,10 @@
 # Create and edit the buttons for displaying the content of the book toggled and chapter toggled
-from books_content_organization import *
-from PySide6.QtWidgets import QPushButton
+from PySide6.QtGui import QFont
+
+from Bible_Content.TheNewJerusalemBible.BookOfGenesis import Njb_Genesis
+#from Bible_Content.TheNewJerusalemBible.BookOfGenesis import Njb_Genesis
+from books_content_organization import TheExtraButtons
+from PySide6.QtWidgets import QPushButton, QLabel, QFrame
 
 
 class ChapterButtons(TheExtraButtons):
@@ -10,14 +14,22 @@ class ChapterButtons(TheExtraButtons):
     font.setBold(True)
     def __init__(self):
         super().__init__()
+        #self.njb_verseContentLabel = None
+        #self.setupUi(self)
 
     # Adding the maximum number of chapters in the bible, i.e., 150 chapters to the chaptersNumberGridLayout
         self.njb_verseContentLabel = None
         self.njb_verseLabel = None
+        """self.njb_verseContentLabel = None
+        self.njb_verseLabel = None"""
+
+
         for x in range(150):
-            but = QPushButton(self.centralwidget)
+            but = QPushButton(self.chapters_scrollAreaWidgetContents)
             but.setObjectName(f"chap_but_{x + 1}")
             but.setText(f"Chapter {x + 1}")
+            but.setCheckable(True)
+            but.setAutoExclusive(True)
             self.chaptersNumberGridLayout.addWidget(but, x, 0)
 
     def addLabels(self):
@@ -42,15 +54,15 @@ class ChapterButtons(TheExtraButtons):
 
 
     def display_function(self, num: int):
-        var_ = self.findChild(QPushButton, f"chap_but_{num}")
-        if var_.clicked:
+        var_ = self.chaptersNumberInnerFrame.findChild(QPushButton, f"chap_but_{num}")
+        if var_.toggled:
             text = var_.text()[var_.text().index(" "):]
             self.gn_chapter_label.setText(text)
             self.amp_chapter_label.setText(text)
             self.kjv_chapter_label.setText(text)
             self.njb_chapter_label.setText(text)
 
-        self.addLabels()
+        #self.addLabels()
         #print(self.tabWidget.currentWidget())
         #print(self.tabWidget.currentIndex())
 

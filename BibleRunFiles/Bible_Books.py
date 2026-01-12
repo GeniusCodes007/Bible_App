@@ -5,7 +5,7 @@ oldTestament = ["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Jos
                 "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk",
                 "Zephaniah", "Haggai", "Zechariah", "Malachi"]
 
-deuterocanonical_Testament = ["Tobit", "Judith", "Esther(Greek)", "Wisdom of Solomon", "Sirach", "Baruch", "Letter of Jeremiah",
+deuterocanonical_Testament = ["Tobit", "Judith", "Esther Greek", "Wisdom of Solomon", "Sirach", "Baruch", "Letter of Jeremiah",
                              "Song of the Three Young Men", "Susana", "Bel and the Dragon", "1 Maccabees", "2 Maccabees"]
 
 newTestament = ["Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians",
@@ -14,5 +14,3 @@ newTestament = ["Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthi
 
 wholeBible = oldTestament + deuterocanonical_Testament + newTestament
 pentecostalBible = oldTestament + newTestament
-print(newTestament)
-#print(len(newTestament))

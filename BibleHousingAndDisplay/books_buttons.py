@@ -1,36 +1,10 @@
 # Create and edit the buttons for displaying the books buttons
-from PySide6.QtGui import QFont
-from PySide6.QtWidgets import QPushButton
+
 from re_assign_buttons import *
 
 #chaptersNumberGridLayout
 class BooksButtons(ReAssignButtons):
 
-    # This is a base function, with which the books buttons can be able to display the number of chapters they have
-    def button_function(self, book_name:str, book_chapters_number:int):
-        chapters = book_chapters_number
-
-        count = self.chaptersNumberGridLayout.count()
-
-        self.book_name_label.setText(self.findChild(QPushButton, book_name).objectName())
-
-        book = self.book_name_label.text()
-
-        self.gn_book_label.setText(book)
-        self.amp_book_label.setText(book)
-        self.kjv_book_label.setText(book)
-        self.njb_book_label.setText(book)
-
-        for x in range(count):
-            b = self.chapterNumberScrollArea.findChild(QPushButton, f"chap_but_{x + 1}")
-            b.setFont(self.font1)
-            if x < chapters:
-                b.setEnabled(True)
-                b.show()
-            else:
-                b.setEnabled(False)
-                b.hide()
-        self.chaptersNumberFrame.show()
 
     def __init__(self):
         super().__init__()
@@ -38,6 +12,40 @@ class BooksButtons(ReAssignButtons):
         self.font1 = QFont()
         self.font1.setPointSize(10)
         self.font1.setBold(True)
+
+
+    # This is a base function, with which the books buttons can be able to display the number of chapters they have
+    def button_function(self, book_name:str, book_chapters_number:int):
+
+        count = self.chaptersNumberGridLayout.count()
+
+        self.book_name_label.setText(book_name)
+
+        #book = self.book_name_label.text()
+
+        self.gn_book_label.setText(book_name)
+        self.amp_book_label.setText(book_name)
+        self.kjv_book_label.setText(book_name)
+        self.njb_book_label.setText(book_name)
+
+        if book_name in self.spaced_books:
+            print(book_name, " is one of them")
+            print(book_name[2:])
+
+        else:
+            print(f"label text: ", book_name)
+
+        for x in range(count):
+            b = self.chaptersNumberInnerFrame.findChild(QPushButton, f"chap_but_{x + 1}")
+            b.setFont(self.font1)
+            if x < book_chapters_number:
+                b.setEnabled(True)
+                b.show()
+            else:
+                b.setEnabled(False)
+                b.hide()
+        self.chaptersNumberFrame.show()
+        #print("ht")
 
 
     # Creating the button functions for each book
@@ -129,7 +137,7 @@ class BooksButtons(ReAssignButtons):
     def judith_function(self): self.button_function("Judith", 16)
 
     #3
-    def esther_greek_function(self): self.button_function("Esther(Greek)", 16)
+    def esther_greek_function(self): self.button_function("Esther (Greek)", 16)
 
     #4
     def wisdom_of_solomon_function(self): self.button_function("Wisdom of Solomon", 19)

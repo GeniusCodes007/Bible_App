@@ -20,8 +20,8 @@
    <string>Student of the Gospel Bible</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="my_bible_icons.qrc">
-    <normaloff>:/window_Icons/bible_icon_5.jpeg</normaloff>:/window_Icons/bible_icon_5.jpeg</iconset>
+   <iconset resource="my_Bible_Icons.qrc">
+    <normaloff>:/appIcons/bible_icon_5.jpeg</normaloff>:/appIcons/bible_icon_5.jpeg</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(78, 157, 78);</string>
@@ -59,9 +59,9 @@ font: 10pt &quot;Segoe Print&quot;;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="my_bible_icons.qrc">
-          <normaloff>:/content_icons/menu.png</normaloff>
-          <normalon>:/content_icons/menu2.png</normalon>:/content_icons/menu.png</iconset>
+         <iconset resource="my_Bible_Icons.qrc">
+          <normaloff>:/buttonIcons/menu.png</normaloff>
+          <normalon>:/buttonIcons/menu2.png</normalon>:/buttonIcons/menu.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -114,6 +114,18 @@ font: 10pt &quot;Segoe Print&quot;;
          <layout class="QVBoxLayout" name="verticalLayout_23">
           <item>
            <widget class="QPushButton" name="pushButton_content">
+            <property name="minimumSize">
+             <size>
+              <width>220</width>
+              <height>33</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>220</width>
+              <height>33</height>
+             </size>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(121, 121, 90);</string>
             </property>
@@ -121,9 +133,9 @@ font: 10pt &quot;Segoe Print&quot;;
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="my_bible_icons.qrc">
-              <normaloff>:/content_icons/content_hidden2.png</normaloff>
-              <normalon>:/content_icons/content_shown2.png</normalon>:/content_icons/content_hidden2.png</iconset>
+             <iconset resource="my_Bible_Icons.qrc">
+              <normaloff>:/buttonIcons/content_hidden2.png</normaloff>
+              <normalon>:/buttonIcons/content_shown2.png</normalon>:/buttonIcons/content_hidden2.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -176,153 +188,10 @@ font: 10pt &quot;Segoe Print&quot;;
             <layout class="QVBoxLayout" name="verticalLayout_21">
              <item>
               <layout class="QGridLayout" name="bibleBooksGridLayout">
-               <item row="49" column="0">
-                <widget class="QPushButton" name="pushButton_49">
+               <item row="17" column="0">
+                <widget class="QPushButton" name="esther">
                  <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="21" column="0">
-                <widget class="QPushButton" name="pushButton_21">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="48" column="0">
-                <widget class="QPushButton" name="pushButton_48">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="38" column="0">
-                <widget class="QPushButton" name="pushButton_38">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="43" column="0">
-                <widget class="QPushButton" name="pushButton_43">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="7" column="0">
-                <widget class="QPushButton" name="pushButton_7">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="28" column="0">
-                <widget class="QPushButton" name="pushButton_28">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="65" column="0">
-                <widget class="QPushButton" name="pushButton_65">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="24" column="0">
-                <widget class="QPushButton" name="pushButton_24">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="32" column="0">
-                <widget class="QPushButton" name="pushButton_32">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="34" column="0">
-                <widget class="QPushButton" name="pushButton_34">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="8" column="0">
-                <widget class="QPushButton" name="pushButton_8">
-                 <property name="text">
-                  <string>PushButton</string>
+                  <string>Esther</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -333,646 +202,9 @@ font: 10pt &quot;Segoe Print&quot;;
                 </widget>
                </item>
                <item row="70" column="0">
-                <widget class="QPushButton" name="pushButton_70">
+                <widget class="QPushButton" name="hebrews">
                  <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="71" column="0">
-                <widget class="QPushButton" name="pushButton_71">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="22" column="0">
-                <widget class="QPushButton" name="pushButton_22">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="54" column="0">
-                <widget class="QPushButton" name="pushButton_54">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="41" column="0">
-                <widget class="QPushButton" name="pushButton_41">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="20" column="0">
-                <widget class="QPushButton" name="pushButton_20">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="33" column="0">
-                <widget class="QPushButton" name="pushButton_33">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="68" column="0">
-                <widget class="QPushButton" name="pushButton_68">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="45" column="0">
-                <widget class="QPushButton" name="pushButton_45">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="64" column="0">
-                <widget class="QPushButton" name="pushButton_64">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="17" column="0">
-                <widget class="QPushButton" name="pushButton_17">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="29" column="0">
-                <widget class="QPushButton" name="pushButton_29">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="15" column="0">
-                <widget class="QPushButton" name="pushButton_15">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="62" column="0">
-                <widget class="QPushButton" name="pushButton_62">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="75" column="0">
-                <widget class="QPushButton" name="pushButton_75">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="77" column="0">
-                <widget class="QPushButton" name="pushButton_77">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="35" column="0">
-                <widget class="QPushButton" name="pushButton_35">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="67" column="0">
-                <widget class="QPushButton" name="pushButton_67">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="47" column="0">
-                <widget class="QPushButton" name="pushButton_47">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="58" column="0">
-                <widget class="QPushButton" name="pushButton_58">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="19" column="0">
-                <widget class="QPushButton" name="pushButton_19">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="31" column="0">
-                <widget class="QPushButton" name="pushButton_31">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="23" column="0">
-                <widget class="QPushButton" name="pushButton_23">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="30" column="0">
-                <widget class="QPushButton" name="pushButton_30">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="39" column="0">
-                <widget class="QPushButton" name="pushButton_39">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="66" column="0">
-                <widget class="QPushButton" name="pushButton_66">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="10" column="0">
-                <widget class="QPushButton" name="pushButton_10">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="69" column="0">
-                <widget class="QPushButton" name="pushButton_69">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="18" column="0">
-                <widget class="QPushButton" name="pushButton_18">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="73" column="0">
-                <widget class="QPushButton" name="pushButton_73">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="9" column="0">
-                <widget class="QPushButton" name="pushButton_9">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="42" column="0">
-                <widget class="QPushButton" name="pushButton_42">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="51" column="0">
-                <widget class="QPushButton" name="pushButton_51">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="53" column="0">
-                <widget class="QPushButton" name="pushButton_53">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="72" column="0">
-                <widget class="QPushButton" name="pushButton_72">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="52" column="0">
-                <widget class="QPushButton" name="pushButton_52">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="27" column="0">
-                <widget class="QPushButton" name="pushButton_27">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="0">
-                <widget class="QPushButton" name="pushButton_3">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="40" column="0">
-                <widget class="QPushButton" name="pushButton_40">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="25" column="0">
-                <widget class="QPushButton" name="pushButton_25">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="57" column="0">
-                <widget class="QPushButton" name="pushButton_57">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="16" column="0">
-                <widget class="QPushButton" name="pushButton_16">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QPushButton" name="pushButton">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="55" column="0">
-                <widget class="QPushButton" name="pushButton_55">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="76" column="0">
-                <widget class="QPushButton" name="pushButton_76">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="14" column="0">
-                <widget class="QPushButton" name="pushButton_14">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="11" column="0">
-                <widget class="QPushButton" name="pushButton_11">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="37" column="0">
-                <widget class="QPushButton" name="pushButton_37">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="26" column="0">
-                <widget class="QPushButton" name="pushButton_26">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="13" column="0">
-                <widget class="QPushButton" name="pushButton_13">
-                 <property name="text">
-                  <string>PushButton</string>
+                  <string>Hebrews</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -983,9 +215,9 @@ font: 10pt &quot;Segoe Print&quot;;
                 </widget>
                </item>
                <item row="59" column="0">
-                <widget class="QPushButton" name="pushButton_59">
+                <widget class="QPushButton" name="romans">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Romans</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -995,10 +227,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="5" column="0">
-                <widget class="QPushButton" name="pushButton_5">
+               <item row="14" column="0">
+                <widget class="QPushButton" name="chronicles_2">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>2 Chronicles</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1008,10 +240,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="2" column="0">
-                <widget class="QPushButton" name="pushButton_2">
+               <item row="32" column="0">
+                <widget class="QPushButton" name="jonah">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Jonah</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1021,10 +253,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="74" column="0">
-                <widget class="QPushButton" name="pushButton_74">
+               <item row="47" column="0">
+                <widget class="QPushButton" name="song_of_the_three_young_men">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Song of the Three Young Men</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1034,10 +266,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="61" column="0">
-                <widget class="QPushButton" name="pushButton_61">
+               <item row="67" column="0">
+                <widget class="QPushButton" name="timothy_2">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>2 Timothy</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1047,10 +279,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="46" column="0">
-                <widget class="QPushButton" name="pushButton_46">
+               <item row="51" column="0">
+                <widget class="QPushButton" name="maccabees_2">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>2 Maccabees</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1060,88 +292,10 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="44" column="0">
-                <widget class="QPushButton" name="pushButton_44">
+               <item row="55" column="0">
+                <widget class="QPushButton" name="john">
                  <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="63" column="0">
-                <widget class="QPushButton" name="pushButton_63">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="50" column="0">
-                <widget class="QPushButton" name="pushButton_50">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="12" column="0">
-                <widget class="QPushButton" name="pushButton_12">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="60" column="0">
-                <widget class="QPushButton" name="pushButton_60">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="36" column="0">
-                <widget class="QPushButton" name="pushButton_36">
-                 <property name="text">
-                  <string>PushButton</string>
-                 </property>
-                 <property name="checkable">
-                  <bool>true</bool>
-                 </property>
-                 <property name="autoExclusive">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="4" column="0">
-                <widget class="QPushButton" name="pushButton_4">
-                 <property name="text">
-                  <string>PushButton</string>
+                  <string>John</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1152,9 +306,9 @@ font: 10pt &quot;Segoe Print&quot;;
                 </widget>
                </item>
                <item row="6" column="0">
-                <widget class="QPushButton" name="pushButton_6">
+                <widget class="QPushButton" name="joshua">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Joshua</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1164,10 +318,36 @@ font: 10pt &quot;Segoe Print&quot;;
                  </property>
                 </widget>
                </item>
-               <item row="56" column="0">
-                <widget class="QPushButton" name="pushButton_56">
+               <item row="29" column="0">
+                <widget class="QPushButton" name="joel">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Joel</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="60" column="0">
+                <widget class="QPushButton" name="galatians">
+                 <property name="text">
+                  <string>Galatians</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QPushButton" name="judges">
+                 <property name="text">
+                  <string>Judges</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
@@ -1178,15 +358,835 @@ font: 10pt &quot;Segoe Print&quot;;
                 </widget>
                </item>
                <item row="78" column="0">
-                <widget class="QPushButton" name="pushButton_78">
+                <widget class="QPushButton" name="revelation">
                  <property name="text">
-                  <string>PushButton</string>
+                  <string>Revelation</string>
                  </property>
                  <property name="checkable">
                   <bool>true</bool>
                  </property>
                  <property name="autoExclusive">
                   <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="65" column="0">
+                <widget class="QPushButton" name="thessalonians_2">
+                 <property name="text">
+                  <string>2 Thessalonians </string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="57" column="0">
+                <widget class="QPushButton" name="corinthians_1">
+                 <property name="text">
+                  <string>1 Corinthians</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="28" column="0">
+                <widget class="QPushButton" name="hosea">
+                 <property name="text">
+                  <string>Hosea</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="61" column="0">
+                <widget class="QPushButton" name="ephesians">
+                 <property name="text">
+                  <string>Ephesians</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QPushButton" name="numbers">
+                 <property name="text">
+                  <string>Numbers</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="53" column="0">
+                <widget class="QPushButton" name="mark">
+                 <property name="text">
+                  <string>Mark</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="50" column="0">
+                <widget class="QPushButton" name="maccabees_1">
+                 <property name="text">
+                  <string>1 Maccabees</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="41" column="0">
+                <widget class="QPushButton" name="judith">
+                 <property name="text">
+                  <string>Judith</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="33" column="0">
+                <widget class="QPushButton" name="micah">
+                 <property name="text">
+                  <string>Micah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="18" column="0">
+                <widget class="QPushButton" name="job">
+                 <property name="text">
+                  <string>Job</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="54" column="0">
+                <widget class="QPushButton" name="luke">
+                 <property name="text">
+                  <string>Luke</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="26" column="0">
+                <widget class="QPushButton" name="ezekiel">
+                 <property name="text">
+                  <string>Ezekiel</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QPushButton" name="ruth">
+                 <property name="text">
+                  <string>Ruth</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="30" column="0">
+                <widget class="QPushButton" name="amos">
+                 <property name="text">
+                  <string>Amos</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="73" column="0">
+                <widget class="QPushButton" name="peter_2">
+                 <property name="text">
+                  <string>2 Peter</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="44" column="0">
+                <widget class="QPushButton" name="sirach">
+                 <property name="text">
+                  <string>Sirach</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="0">
+                <widget class="QPushButton" name="kings_2">
+                 <property name="text">
+                  <string>2 Kings</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="22" column="0">
+                <widget class="QPushButton" name="song_of_songs">
+                 <property name="text">
+                  <string>Song of Songs</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="43" column="0">
+                <widget class="QPushButton" name="wisdom_of_solomon">
+                 <property name="text">
+                  <string>Wisdom of Solomon</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="19" column="0">
+                <widget class="QPushButton" name="psalms">
+                 <property name="text">
+                  <string>Psalms</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="75" column="0">
+                <widget class="QPushButton" name="john_2">
+                 <property name="text">
+                  <string>2 John</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="24" column="0">
+                <widget class="QPushButton" name="jeremiah">
+                 <property name="text">
+                  <string>Jeremiah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="74" column="0">
+                <widget class="QPushButton" name="john_1">
+                 <property name="text">
+                  <string>1 John</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="66" column="0">
+                <widget class="QPushButton" name="timothy_1">
+                 <property name="text">
+                  <string>1 Timothy</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="40" column="0">
+                <widget class="QPushButton" name="tobit">
+                 <property name="text">
+                  <string>Tobit</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QPushButton" name="samuel_1">
+                 <property name="text">
+                  <string>1 Samuel</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="16" column="0">
+                <widget class="QPushButton" name="nehemiah">
+                 <property name="text">
+                  <string>Nehemiah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="49" column="0">
+                <widget class="QPushButton" name="bel_and_the_dragon">
+                 <property name="text">
+                  <string>Bel and the Dragon </string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="20" column="0">
+                <widget class="QPushButton" name="proverbs">
+                 <property name="text">
+                  <string>Proverbs</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="23" column="0">
+                <widget class="QPushButton" name="isaiah">
+                 <property name="text">
+                  <string>Isaiah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="56" column="0">
+                <widget class="QPushButton" name="acts">
+                 <property name="text">
+                  <string>Acts</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="genesis">
+                 <property name="text">
+                  <string>Genesis</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="63" column="0">
+                <widget class="QPushButton" name="colossians">
+                 <property name="text">
+                  <string>Colossians</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="27" column="0">
+                <widget class="QPushButton" name="daniel">
+                 <property name="text">
+                  <string>Daniel</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QPushButton" name="leviticus">
+                 <property name="text">
+                  <string>Leviticus</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="15" column="0">
+                <widget class="QPushButton" name="ezra">
+                 <property name="text">
+                  <string>Ezra</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="42" column="0">
+                <widget class="QPushButton" name="esther_greek">
+                 <property name="text">
+                  <string>Esther (Greek)</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="62" column="0">
+                <widget class="QPushButton" name="philippians">
+                 <property name="text">
+                  <string>Philippians</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="37" column="0">
+                <widget class="QPushButton" name="haggai">
+                 <property name="text">
+                  <string>Haggai</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="76" column="0">
+                <widget class="QPushButton" name="john_3">
+                 <property name="text">
+                  <string>3 John</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="38" column="0">
+                <widget class="QPushButton" name="zechariah">
+                 <property name="text">
+                  <string>Zechariah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="69" column="0">
+                <widget class="QPushButton" name="philemon">
+                 <property name="text">
+                  <string>Philemon</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="77" column="0">
+                <widget class="QPushButton" name="jude">
+                 <property name="text">
+                  <string>Jude</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="exodus">
+                 <property name="text">
+                  <string>Exodus</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="64" column="0">
+                <widget class="QPushButton" name="thessalonians_1">
+                 <property name="text">
+                  <string>1 Thessalonians</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="39" column="0">
+                <widget class="QPushButton" name="malachi">
+                 <property name="text">
+                  <string>Malachi</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="35" column="0">
+                <widget class="QPushButton" name="habakkuk">
+                 <property name="text">
+                  <string>Habakkuk</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="71" column="0">
+                <widget class="QPushButton" name="james">
+                 <property name="text">
+                  <string>James</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="25" column="0">
+                <widget class="QPushButton" name="lamentations">
+                 <property name="text">
+                  <string>Lamentations</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QPushButton" name="kings_1">
+                 <property name="text">
+                  <string>1 Kings</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QPushButton" name="samuel_2">
+                 <property name="text">
+                  <string>2 Samuel</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="52" column="0">
+                <widget class="QPushButton" name="matthew">
+                 <property name="text">
+                  <string>Matthew</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="0">
+                <widget class="QPushButton" name="chronicles_1">
+                 <property name="text">
+                  <string>1 Chronicles</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="36" column="0">
+                <widget class="QPushButton" name="zephaniah">
+                 <property name="text">
+                  <string>Zephaniah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="48" column="0">
+                <widget class="QPushButton" name="susana">
+                 <property name="text">
+                  <string>Susana</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="46" column="0">
+                <widget class="QPushButton" name="letter_of_jeremiah">
+                 <property name="text">
+                  <string>Letter of Jeremiah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="31" column="0">
+                <widget class="QPushButton" name="obadiah">
+                 <property name="text">
+                  <string>Obadiah</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="72" column="0">
+                <widget class="QPushButton" name="peter_1">
+                 <property name="text">
+                  <string>1 Peter</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="68" column="0">
+                <widget class="QPushButton" name="titus">
+                 <property name="text">
+                  <string>Titus</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="34" column="0">
+                <widget class="QPushButton" name="nahum">
+                 <property name="text">
+                  <string>Nahum</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QPushButton" name="deuteronomy">
+                 <property name="text">
+                  <string>Deuteronomy</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="45" column="0">
+                <widget class="QPushButton" name="baruch">
+                 <property name="text">
+                  <string>Baruch</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="21" column="0">
+                <widget class="QPushButton" name="ecclesiastes">
+                 <property name="text">
+                  <string>Ecclesiastes</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="58" column="0">
+                <widget class="QPushButton" name="corinthians_2">
+                 <property name="text">
+                  <string>2 Corinthians</string>
                  </property>
                 </widget>
                </item>
@@ -1483,7 +1483,7 @@ font: 10pt &quot;Segoe Print&quot;;
            <enum>QTabWidget::TabShape::Rounded</enum>
           </property>
           <property name="currentIndex">
-           <number>3</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="gn_tab">
            <attribute name="title">
@@ -1491,7 +1491,7 @@ font: 10pt &quot;Segoe Print&quot;;
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_7">
             <item>
-             <widget class="QFrame" name="frame_2">
+             <widget class="QFrame" name="Good_News_Upper_Frame">
               <property name="minimumSize">
                <size>
                 <width>627</width>
@@ -1593,7 +1593,7 @@ font: 10pt &quot;Segoe Print&quot;;
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_9">
+             <widget class="QFrame" name="Good_News_Lower_Frame">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -1699,7 +1699,7 @@ font: 10pt &quot;Segoe Print&quot;;
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_6">
             <item>
-             <widget class="QFrame" name="frame_3">
+             <widget class="QFrame" name="Amplified_Upper_Frame">
               <property name="minimumSize">
                <size>
                 <width>627</width>
@@ -1792,7 +1792,7 @@ font: 10pt &quot;Segoe Print&quot;;
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_7">
+             <widget class="QFrame" name="Amplified_Lower_Frame">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -1898,7 +1898,7 @@ font: 10pt &quot;Segoe Print&quot;;
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
-             <widget class="QFrame" name="frame_4">
+             <widget class="QFrame" name="King_James_Upper_Frame">
               <property name="minimumSize">
                <size>
                 <width>627</width>
@@ -1991,7 +1991,7 @@ font: 10pt &quot;Segoe Print&quot;;
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_8">
+             <widget class="QFrame" name="King_James_Lower_Frame">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -2097,7 +2097,7 @@ font: 10pt &quot;Segoe Print&quot;;
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout">
             <item>
-             <widget class="QFrame" name="frame_5">
+             <widget class="QFrame" name="New_Jerusalem_Upper_Frame">
               <property name="minimumSize">
                <size>
                 <width>627</width>
@@ -2190,7 +2190,7 @@ font: 10pt &quot;Segoe Print&quot;;
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_6">
+             <widget class="QFrame" name="New_Jerusalem_Lower_Frame">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -2312,7 +2312,7 @@ font: 10pt &quot;Segoe Print&quot;;
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_15">
             <item>
-             <widget class="QFrame" name="frame">
+             <widget class="QFrame" name="Page_Title_Frame">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -2333,7 +2333,7 @@ font: 10pt &quot;Segoe Print&quot;;
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_7">
                <item>
-                <widget class="QLabel" name="label">
+                <widget class="QLabel" name="page_title">
                  <property name="minimumSize">
                   <size>
                    <width>191</width>
@@ -2359,7 +2359,7 @@ font: 10pt &quot;Segoe Print&quot;;
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_2">
+                <widget class="QLabel" name="page_intro">
                  <property name="minimumSize">
                   <size>
                    <width>301</width>
@@ -2487,8 +2487,61 @@ font: 10pt &quot;Segoe Print&quot;;
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="bible_study_plan_page"/>
-      <widget class="QWidget" name="bible_study_topics_page"/>
+      <widget class="QWidget" name="bible_study_plan_page">
+       <layout class="QVBoxLayout" name="verticalLayout_26">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Bible Study Plan</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="bible_study_topics_page">
+       <layout class="QVBoxLayout" name="verticalLayout_24">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::Shape::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Shadow::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_25">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Finish The Blble In :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>A Year Plan</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>Six Months Plan</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string>Three Months Plan</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
       <widget class="QWidget" name="bible_study_character_page">
        <layout class="QVBoxLayout" name="verticalLayout_16">
         <item>
@@ -2501,8 +2554,8 @@ font: 10pt &quot;Segoe Print&quot;;
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>643</width>
-             <height>504</height>
+             <width>596</width>
+             <height>450</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_20">
@@ -2759,14 +2812,24 @@ font: 10pt &quot;Segoe Print&quot;;
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="settings_page"/>
+      <widget class="QWidget" name="settings_page">
+       <layout class="QVBoxLayout" name="verticalLayout_22">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Settings Page</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </widget>
     </item>
    </layout>
   </widget>
  </widget>
  <resources>
-  <include location="my_bible_icons.qrc"/>
+  <include location="my_Bible_Icons.qrc"/>
  </resources>
  <connections/>
 </ui>

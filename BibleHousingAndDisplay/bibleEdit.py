@@ -1,13 +1,13 @@
 
-from chapter_buttons import *
+from chapter_buttons import ChapterButtons
 
 
 class BibleEdit(ChapterButtons):
     def __init__(self):
         super().__init__()
-
-
+        #self.setupUi(self)
         #Traditional Old Testament
+
         self.genesis.toggled.connect(self.genesis_function)
         self.exodus.toggled.connect(self.exodus_function)
         self.leviticus.toggled.connect(self.leviticus_function)
@@ -16,8 +16,8 @@ class BibleEdit(ChapterButtons):
         self.joshua.toggled.connect(self.joshua_function)
         self.judges.toggled.connect(self.judges_function)
         self.ruth.toggled.connect(self.ruth_function)
-        self.sam_1.toggled.connect(self._1_sam_function)
-        self.sam_2.toggled.connect(self._2_sam_function)
+        self.samuel_1.toggled.connect(self._1_sam_function)
+        self.samuel_2.toggled.connect(self._2_sam_function)
         self.kings_1.toggled.connect(self._1_kings_function)
         self.kings_2.toggled.connect(self._2_kings_function)
         self.chronicles_1.toggled.connect(self._1_chronicles_function)
@@ -29,7 +29,7 @@ class BibleEdit(ChapterButtons):
         self.psalms.toggled.connect(self.psalms_function)
         self.proverbs.toggled.connect(self.proverbs_function)
         self.ecclesiastes.toggled.connect(self.ecclesiastes_function)
-        self.song_of_songs_solomon.toggled.connect(self.song_of_songs_solomon_function)
+        self.song_of_songs.toggled.connect(self.song_of_songs_solomon_function)
         self.isaiah.toggled.connect(self.isaiah_function)
         self.jeremiah.toggled.connect(self.jeremiah_function)
         self.lamentations.toggled.connect(self.lamentations_function)
@@ -56,7 +56,7 @@ class BibleEdit(ChapterButtons):
         self.sirach.toggled.connect(self.sirach_function)
         self.baruch.toggled.connect(self.baruch_function)
         self.letter_of_jeremiah.toggled.connect(self.letter_of_jeremiah_function)
-        self.song_of_young_men.toggled.connect(self.song_of_the_three_young_men_function)
+        self.song_of_the_three_young_men.toggled.connect(self.song_of_the_three_young_men_function)
         self.susana.toggled.connect(self.susana_function)
         self.bel_and_the_dragon.toggled.connect(self.bel_and_dragon_function)
         self.maccabees_1.toggled.connect(self._1_maccabees_function)
@@ -70,8 +70,8 @@ class BibleEdit(ChapterButtons):
         self.john.toggled.connect(self.john_function)
         self.acts.toggled.connect(self.acts_function)
         self.romans.toggled.connect(self.romans_function)
-        self.corinth_1.toggled.connect(self._1_corinthians_function)
-        self.corinth_2.toggled.connect(self._2_corinthians_function)
+        self.corinthians_1.toggled.connect(self._1_corinthians_function)
+        self.corinthians_2.toggled.connect(self._2_corinthians_function)
         self.galatians.toggled.connect(self.galatians_function)
         self.ephesians.toggled.connect(self.ephesians_function)
         self.philippians.toggled.connect(self.philippians_function)
