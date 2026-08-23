@@ -1,247 +1,374 @@
 [
     {
-        "label": "ChapterButtons",
-        "importPath": "chapter_buttons",
-        "description": "chapter_buttons",
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "chapter_buttons",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "QApplication",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
+        "label": "*",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
         "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QMainWindow",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QLabel",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QFrame",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QMainWindow",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QApplication",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QFrame",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QGridLayout",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QHBoxLayout",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QLabel",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QMainWindow",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QPushButton",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QScrollArea",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QSizePolicy",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QStackedWidget",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QTabWidget",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QVBoxLayout",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "QWidget",
-        "importPath": "PySide6.QtWidgets",
-        "description": "PySide6.QtWidgets",
-        "isExtraImport": true,
-        "detail": "PySide6.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "BibleEdit",
-        "importPath": "BibleHousingAndDisplay.bibleEdit",
-        "description": "BibleHousingAndDisplay.bibleEdit",
-        "isExtraImport": true,
-        "detail": "BibleHousingAndDisplay.bibleEdit",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
         "documentation": {}
     },
     {
         "label": "newTestament",
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
         "isExtraImport": true,
-        "detail": "BibleRunFiles.Bible_Books",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
         "documentation": {}
     },
     {
         "label": "deuterocanonical_Testament",
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
         "isExtraImport": true,
-        "detail": "BibleRunFiles.Bible_Books",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
+        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "isExtraImport": true,
-        "detail": "BibleRunFiles.Bible_Books",
+        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
         "documentation": {}
     },
     {
-        "label": "Display_Content",
-        "importPath": "display_content",
-        "description": "display_content",
+        "label": "bibleVersions",
+        "importPath": "Bible_Content_Organisation_And_Display.Translations",
+        "description": "Bible_Content_Organisation_And_Display.Translations",
         "isExtraImport": true,
-        "detail": "display_content",
+        "detail": "Bible_Content_Organisation_And_Display.Translations",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "re_assign_buttons",
-        "description": "re_assign_buttons",
+        "importPath": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "description": "Bible_Content_Organisation_And_Display.bibleCompilation",
         "isExtraImport": true,
-        "detail": "re_assign_buttons",
+        "detail": "Bible_Content_Organisation_And_Display.bibleCompilation",
         "documentation": {}
     },
     {
-        "label": "BooksButtons",
-        "importPath": "books_buttons",
-        "description": "books_buttons",
+        "label": "QCoreApplication",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
         "isExtraImport": true,
-        "detail": "books_buttons",
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QDate",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QDateTime",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QLocale",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QMetaObject",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QObject",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QPoint",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QRect",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QSize",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QTime",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QUrl",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QCoreApplication",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QDate",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QDateTime",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QLocale",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QMetaObject",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QObject",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QPoint",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QRect",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QSize",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QTime",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QUrl",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QBrush",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QColor",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QConicalGradient",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QCursor",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
         "documentation": {}
     },
     {
         "label": "QFont",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QFontDatabase",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QGradient",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QIcon",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QImage",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QKeySequence",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QLinearGradient",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPainter",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPalette",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPixmap",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QRadialGradient",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QTransform",
         "importPath": "PySide6.QtGui",
         "description": "PySide6.QtGui",
         "isExtraImport": true,
@@ -377,746 +504,702 @@
         "documentation": {}
     },
     {
-        "label": "Njb_Genesis",
-        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "isExtraImport": true,
-        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "isExtraImport": true,
-        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "documentation": {}
-    },
-    {
-        "label": "TheExtraButtons",
-        "importPath": "books_content_organization",
-        "description": "books_content_organization",
-        "isExtraImport": true,
-        "detail": "books_content_organization",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "bibleEdit",
-        "description": "bibleEdit",
-        "isExtraImport": true,
-        "detail": "bibleEdit",
-        "documentation": {}
-    },
-    {
-        "label": "PySide6",
+        "label": "PySide6.QtWidgets",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "PySide6",
-        "description": "PySide6",
-        "detail": "PySide6",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QtCore",
-        "importPath": "PySide6",
-        "description": "PySide6",
+        "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "BibleHousingAndDisplay.ui_Bible_ui",
-        "description": "BibleHousingAndDisplay.ui_Bible_ui",
+        "label": "QFrame",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "BibleHousingAndDisplay.ui_Bible_ui",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QCoreApplication",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QGridLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QDate",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QHBoxLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QDateTime",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QLabel",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QLocale",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QMainWindow",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QMetaObject",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QObject",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QScrollArea",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QPoint",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QSizePolicy",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QRect",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QStackedWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QSize",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QTabWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QTime",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QVBoxLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "QUrl",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "Qt",
-        "importPath": "PySide6.QtCore",
-        "description": "PySide6.QtCore",
+        "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "PySide6.QtCore",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "my_Bible_Icons_rc",
-        "kind": 6,
+        "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "importPath": "my_Bible_Icons_rc",
-        "description": "my_Bible_Icons_rc",
-        "detail": "my_Bible_Icons_rc",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
+        "label": "QLabel",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "BibleRunFiles.bibleCompilation",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "BookOfGenesis",
-        "importPath": "Bible_Content.TheNewJerusalemBible",
-        "description": "Bible_Content.TheNewJerusalemBible",
+        "label": "QFrame",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "Bible_Content.TheNewJerusalemBible",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "QMainWindow",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "detail": "__future__",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "site",
-        "kind": 6,
+        "label": "QFrame",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
         "isExtraImport": true,
-        "importPath": "site",
-        "description": "site",
-        "detail": "site",
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "BibleEdit",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.bibleEdit",
-        "description": "BibleHousingAndDisplay.bibleEdit",
-        "peekOfCode": "class BibleEdit(ChapterButtons):\n    def __init__(self):\n        super().__init__()\n        #self.setupUi(self)\n        #Traditional Old Testament\n        self.genesis.toggled.connect(self.genesis_function)\n        self.exodus.toggled.connect(self.exodus_function)\n        self.leviticus.toggled.connect(self.leviticus_function)\n        self.numbers.toggled.connect(self.numbers_function)\n        self.deuteronomy.toggled.connect(self.deuteronomy_function)",
-        "detail": "BibleHousingAndDisplay.bibleEdit",
+        "label": "QGridLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "RunWindow",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.bibleWindowRun",
-        "description": "BibleHousingAndDisplay.bibleWindowRun",
-        "peekOfCode": "class RunWindow(Display_Content, QMainWindow):\n    def __init__(self):\n        super().__init__()\n        #self.setupUi(self)\n        # Set the page for the main Bible to show by default\n        self.stackedWidget.setCurrentIndex(0)\n        self.chaptersNumberFrame.hide()\n        self.bibleBooksFrame.hide()\n        # Connect the menu button to the hide_menu function\n        self.pushButton_menu.toggled.connect(self.toggle_menu)",
-        "detail": "BibleHousingAndDisplay.bibleWindowRun",
+        "label": "QHBoxLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "app",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.bibleWindowRun",
-        "description": "BibleHousingAndDisplay.bibleWindowRun",
-        "peekOfCode": "app = QApplication(sys.argv)\nwindow = RunWindow()\nwindow.show()\nsys.exit(app.exec())",
-        "detail": "BibleHousingAndDisplay.bibleWindowRun",
+        "label": "QLabel",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "window",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.bibleWindowRun",
-        "description": "BibleHousingAndDisplay.bibleWindowRun",
-        "peekOfCode": "window = RunWindow()\nwindow.show()\nsys.exit(app.exec())",
-        "detail": "BibleHousingAndDisplay.bibleWindowRun",
+        "label": "QMainWindow",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "BooksButtons",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.books_buttons",
-        "description": "BibleHousingAndDisplay.books_buttons",
-        "peekOfCode": "class BooksButtons(ReAssignButtons):\n    def __init__(self):\n        super().__init__()\n        self.font1 = QFont()\n        self.font1.setPointSize(10)\n        self.font1.setBold(True)\n    # This is a base function, with which the books buttons can be able to display the number of chapters they have\n    def button_function(self, book_name:str, book_chapters_number:int):\n        count = self.chaptersNumberGridLayout.count()\n        self.book_name_label.setText(book_name)",
-        "detail": "BibleHousingAndDisplay.books_buttons",
+        "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "TheExtraButtons",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.books_content_organization",
-        "description": "BibleHousingAndDisplay.books_content_organization",
-        "peekOfCode": "class TheExtraButtons(BooksButtons):\n    def __init__(self):\n        super().__init__()\n        #self.setupUi(self)",
-        "detail": "BibleHousingAndDisplay.books_content_organization",
+        "label": "QScrollArea",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QSizePolicy",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QStackedWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QTabWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "Edit_Display",
+        "importPath": "Bible_Organisation_And_Display.edit_Display",
+        "description": "Bible_Organisation_And_Display.edit_Display",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.edit_Display",
         "documentation": {}
     },
     {
         "label": "ChapterButtons",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.chapter_buttons",
-        "description": "BibleHousingAndDisplay.chapter_buttons",
-        "peekOfCode": "class ChapterButtons(TheExtraButtons):\n    font = QFont()\n    font.setFamilies([u\"Segoe UI\"])\n    font.setPointSize(10)\n    font.setBold(True)\n    def __init__(self):\n        super().__init__()\n        #self.njb_verseContentLabel = None\n        #self.setupUi(self)\n    # Adding the maximum number of chapters in the bible, i.e., 150 chapters to the chaptersNumberGridLayout",
-        "detail": "BibleHousingAndDisplay.chapter_buttons",
+        "importPath": "Bible_Organisation_And_Display.chapter_buttons",
+        "description": "Bible_Organisation_And_Display.chapter_buttons",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.chapter_buttons",
         "documentation": {}
     },
     {
-        "label": "word",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.check",
-        "description": "BibleHousingAndDisplay.check",
-        "peekOfCode": "word = \"iwwu iiiu oowi \"\nnew_word = word.replace(\" \", \"_\")\nprint(new_word)\nif \" \" in word:\n    print(\"Found it\")\ncount = 1\nfor x in new_word:\n    if x == \"_\":\n        print(\"Found it \", count)\n        print(\"the position is \", new_word.index(\"_\"))",
-        "detail": "BibleHousingAndDisplay.check",
+        "label": "BibleBooksButtons",
+        "importPath": "Bible_Organisation_And_Display.bible_books_buttons",
+        "description": "Bible_Organisation_And_Display.bible_books_buttons",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.bible_books_buttons",
         "documentation": {}
     },
     {
-        "label": "new_word",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.check",
-        "description": "BibleHousingAndDisplay.check",
-        "peekOfCode": "new_word = word.replace(\" \", \"_\")\nprint(new_word)\nif \" \" in word:\n    print(\"Found it\")\ncount = 1\nfor x in new_word:\n    if x == \"_\":\n        print(\"Found it \", count)\n        print(\"the position is \", new_word.index(\"_\"))\n        count += 1",
-        "detail": "BibleHousingAndDisplay.check",
-        "documentation": {}
-    },
-    {
-        "label": "count",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.check",
-        "description": "BibleHousingAndDisplay.check",
-        "peekOfCode": "count = 1\nfor x in new_word:\n    if x == \"_\":\n        print(\"Found it \", count)\n        print(\"the position is \", new_word.index(\"_\"))\n        count += 1",
-        "detail": "BibleHousingAndDisplay.check",
-        "documentation": {}
-    },
-    {
-        "label": "Display_Content",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.display_content",
-        "description": "BibleHousingAndDisplay.display_content",
-        "peekOfCode": "class Display_Content(BibleEdit):\n    def __init__(self):\n        super().__init__()\n        #self.setupUi(self)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_1\").clicked.connect(self.button_1)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_2\").clicked.connect(self.button_2)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_3\").clicked.connect(self.button_3)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_4\").clicked.connect(self.button_4)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_5\").clicked.connect(self.button_5)\n        self.chaptersNumberInnerFrame.findChild(QPushButton, \"chap_but_6\").clicked.connect(self.button_6)",
-        "detail": "BibleHousingAndDisplay.display_content",
-        "documentation": {}
-    },
-    {
-        "label": "qInitResources",
-        "kind": 2,
-        "importPath": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "description": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "peekOfCode": "def qInitResources():\n    QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\ndef qCleanupResources():\n    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\nqInitResources()",
-        "detail": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "documentation": {}
-    },
-    {
-        "label": "qCleanupResources",
-        "kind": 2,
-        "importPath": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "description": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "peekOfCode": "def qCleanupResources():\n    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)\nqInitResources()",
-        "detail": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "documentation": {}
-    },
-    {
-        "label": "qt_resource_data",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "description": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "peekOfCode": "qt_resource_data = b\"\\\n\\x00\\x00-]\\\n\\xff\\\n\\xd8\\xff\\xe0\\x00\\x10JFIF\\x00\\x01\\x01\\x00\\x00\\x01\\x00\\\n\\x01\\x00\\x00\\xff\\xdb\\x00\\x84\\x00\\x09\\x06\\x07\\x14\\x10\\x11\\x14\\x10\\\n\\x10\\x13\\x0d\\x0d\\x0f\\x0d\\x12\\x0f\\x10\\x0e\\x0f\\x10\\x0d\\x12\\x0d\\x0e\\\n\\x0d\\x0f\\x15\\x11\\x16\\x16\\x15\\x11\\x1f\\x15\\x18\\x1c( \\x18&\\\n'\\x1b\\x15\\x15\\x22=\\x22%)+/..\\x17\\x1f3\\\n83,7(-.+\\x01\\x0a\\x0a\\x0a\\x0e\\x0d\\x0e\\x16\\\n\\x10\\x10\\x15+\\x1e\\x17\\x1d-7+0.-70+\\",
-        "detail": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "documentation": {}
-    },
-    {
-        "label": "qt_resource_name",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "description": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "peekOfCode": "qt_resource_name = b\"\\\n\\x00\\x0b\\\n\\x06\\xfc53\\\n\\x00b\\\n\\x00u\\x00t\\x00t\\x00o\\x00n\\x00I\\x00c\\x00o\\x00n\\x00s\\\n\\x00\\x08\\\n\\x07O\\xabS\\\n\\x00a\\\n\\x00p\\x00p\\x00I\\x00c\\x00o\\x00n\\x00s\\\n\\x00\\x11\\",
-        "detail": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "documentation": {}
-    },
-    {
-        "label": "qt_resource_struct",
-        "kind": 5,
-        "importPath": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "description": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "peekOfCode": "qt_resource_struct = b\"\\\n\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x01\\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x08\\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x00\\x1c\\x00\\x02\\x00\\x00\\x00\\x05\\x00\\x00\\x00\\x03\\\n\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\\n\\x00\\x00\\x00\\xcc\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x01\\x07\\x7f\\\n\\x00\\x00\\x01\\x9am\\x98\\x96\\xe0\\\n\\x00\\x00\\x00Z\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00-a\\",
-        "detail": "BibleHousingAndDisplay.my_Bible_Icons_rc",
-        "documentation": {}
-    },
-    {
-        "label": "ReAssignButtons",
-        "kind": 6,
-        "importPath": "BibleHousingAndDisplay.re_assign_buttons",
-        "description": "BibleHousingAndDisplay.re_assign_buttons",
-        "peekOfCode": "class ReAssignButtons(Ui_MainWindow):\n    def __init__(self):\n        super().__init__()\n        self.setupUi(self)\n        self.spaced_books = [\"1 Samuel\", \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\",\"Song of Songs\",\n                             \"Esther (Greek)\", \"Wisdom of Solomon\", \"Letter of Jeremiah\", \"Song of the Three Young Men\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\",\n                             \"1 Corinthians\", \"2 Corinthians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\"]\n        # I assign the push buttons new values, based on the values in the 'wholeBible' variable in bibleCompilation.py",
-        "detail": "BibleHousingAndDisplay.re_assign_buttons",
+        "label": "BibleEdit",
+        "importPath": "Bible_Organisation_And_Display.bibleEdit",
+        "description": "Bible_Organisation_And_Display.bibleEdit",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.bibleEdit",
         "documentation": {}
     },
     {
         "label": "Ui_MainWindow",
+        "importPath": "Bible_Organisation_And_Display.ui_Bible_ui",
+        "description": "Bible_Organisation_And_Display.ui_Bible_ui",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.ui_Bible_ui",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
         "kind": 6,
-        "importPath": "BibleHousingAndDisplay.ui_Bible_ui",
-        "description": "BibleHousingAndDisplay.ui_Bible_ui",
-        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(1149, 542)\n        font = QFont()\n        font.setPointSize(10)\n        font.setBold(True)\n        MainWindow.setFont(font)\n        icon = QIcon()",
-        "detail": "BibleHousingAndDisplay.ui_Bible_ui",
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
-        "label": "no_chapters",
-        "kind": 2,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "def no_chapters(book: str, chapters:int)-> List:\n    _list = []\n    for num_ in range(chapters):\n        _list.append(f\"{book} {num_ + 1}\")\n    return _list\n#print(no_chapters(\"Genesis\", 31))\nfrom BibleRunFiles.Bible_Books import *\nfrom Bible_Content.TheNewJerusalemBible.BookOfGenesis import *\ndef sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "sort_A_to_Z",
-        "kind": 2,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "def sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []\n    print(len(what_to_sort))\n    while len(what_to_sort) > 0:\n        mini = min(what_to_sort)\n        print(mini)\n        sorted_.append(mini)\n        what_to_sort.remove(mini)\n    print(len(sorted_))\ndef allBooks():",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "allBooks",
-        "kind": 2,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "def allBooks():\n    for book in wholeBible:\n        print(book)\nnew_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": Njb_Genesis.genesis_1, \"Chapter 2\": Njb_Genesis.genesis_2, \"Chapter 3\": Njb_Genesis.genesis_3, \"Chapter 4\": Njb_Genesis.genesis_4}\n}",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "new_jerusalem",
-        "kind": 5,
-        "importPath": "BibleRunFiles.bibleCompilation",
-        "description": "BibleRunFiles.bibleCompilation",
-        "peekOfCode": "new_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": Njb_Genesis.genesis_1, \"Chapter 2\": Njb_Genesis.genesis_2, \"Chapter 3\": Njb_Genesis.genesis_3, \"Chapter 4\": Njb_Genesis.genesis_4}\n}",
-        "detail": "BibleRunFiles.bibleCompilation",
-        "documentation": {}
-    },
-    {
-        "label": "BibleOperationActions",
-        "kind": 6,
-        "importPath": "BibleRunFiles.bibleOperationActions",
-        "description": "BibleRunFiles.bibleOperationActions",
-        "peekOfCode": "class BibleOperationActions:\n    @staticmethod\n    def minVerse(*chapterContent):\n        pass\n    @staticmethod\n    def maxVerse(*chapterContent):\n        pass\n    @staticmethod\n    def getChapterByVersion( version: str, book: str,chapter:int ):\n        try:",
-        "detail": "BibleRunFiles.bibleOperationActions",
-        "documentation": {}
-    },
-    {
-        "label": "oldTestament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
-        "peekOfCode": "oldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\", \"1 Samuel\",\n                \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\", \"Ezra\", \"Nehemiah\", \"Esther\",\"Job\",\n                \"Psalms\", \"Proverbs\", \"Ecclesiastes\", \"Song of Songs\", \"Isaiah\", \"Jeremiah\", \"Lamentations\",\n                \"Ezekiel\", \"Daniel\", \"Hosea\", \"Joel\", \"Amos\", \"Obadiah\", \"Jonah\", \"Micah\", \"Nahum\", \"Habakkuk\",\n                \"Zephaniah\", \"Haggai\", \"Zechariah\", \"Malachi\"]\ndeuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther Greek\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]",
-        "detail": "BibleRunFiles.Bible_Books",
-        "documentation": {}
-    },
-    {
-        "label": "deuterocanonical_Testament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
-        "peekOfCode": "deuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther Greek\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
-        "detail": "BibleRunFiles.Bible_Books",
-        "documentation": {}
-    },
-    {
-        "label": "newTestament",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
-        "peekOfCode": "newTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"1 Corinthians\", \"2 Corinthians\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
-        "detail": "BibleRunFiles.Bible_Books",
-        "documentation": {}
-    },
-    {
-        "label": "wholeBible",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
-        "peekOfCode": "wholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
-        "detail": "BibleRunFiles.Bible_Books",
-        "documentation": {}
-    },
-    {
-        "label": "pentecostalBible",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Bible_Books",
-        "description": "BibleRunFiles.Bible_Books",
-        "peekOfCode": "pentecostalBible = oldTestament + newTestament",
-        "detail": "BibleRunFiles.Bible_Books",
-        "documentation": {}
-    },
-    {
-        "label": "bibleVersions",
-        "kind": 5,
-        "importPath": "BibleRunFiles.Translations",
-        "description": "BibleRunFiles.Translations",
-        "peekOfCode": "bibleVersions = catholicBible + pentecostalBible",
-        "detail": "BibleRunFiles.Translations",
+        "label": "Bible_Window_Organisation",
+        "importPath": "Bible_Organisation_And_Display.bible_Window_Organisation",
+        "description": "Bible_Organisation_And_Display.bible_Window_Organisation",
+        "isExtraImport": true,
+        "detail": "Bible_Organisation_And_Display.bible_Window_Organisation",
         "documentation": {}
     },
     {
         "label": "chapter_1",
         "kind": 5,
-        "importPath": "Bible_Content.Amplified.BookOfGenesis",
-        "description": "Bible_Content.Amplified.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
         "peekOfCode": "chapter_1 = \\\n    {\n    1: \"In the beginning God (Elohim) created [by forming from nothing] the heavens and the earth. \",\n    2: \"The earth was formless and void or a waste and emptiness, and darkness was upon the face of the deep \\n\"\n       \"[primeval ocean that covered the unformed earth]. The Spirit of God was moving (hovering, brooding) \\n\"\n       \"over the face of the waters. \",\n    3: \"And God said, “Let there be light”; and there was light. \",\n    4: \"God saw that the light was good (pleasing, useful) and He affirmed and sustained it; and \\n\"\n       \"God separated the light [distinguishing it] \"\n       \"from the darkness. \",",
-        "detail": "Bible_Content.Amplified.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_2",
         "kind": 5,
-        "importPath": "Bible_Content.Amplified.BookOfGenesis",
-        "description": "Bible_Content.Amplified.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
         "peekOfCode": "chapter_2 = \\\n    {}",
-        "detail": "Bible_Content.Amplified.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_One",
         "kind": 5,
-        "importPath": "Bible_Content.Amplified.BookOfJude",
-        "description": "Bible_Content.Amplified.BookOfJude",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfJude",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfJude",
         "peekOfCode": "chapter_One = \\\n    {\n1: \"Jude, a bond-servant of Jesus Christ, and brother of James, [writes this letter], To those who are \\n\"\n   \"the called (God’s chosen ones, the elect), dearly loved by God the Father, and kept [secure and set apart] \\n\"\n   \"for Jesus Christ: \",\n2: \"May mercy and peace and love be multiplied to you [filling your heart with the spiritual well-being and \\n\"\n   \"serenity experienced \"\n    \"by those who walk closely with God]. \",\n3: \"Beloved, while I was making every effort to write you about our common salvation, I was compelled to \\n\"\n   \"write to you [urgently] appealing that you fight strenuously for [the defense of] the faith which was \\n\"",
-        "detail": "Bible_Content.Amplified.BookOfJude",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.Amplified.BookOfJude",
         "documentation": {}
     },
     {
         "label": "chapter_1",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_1 = \\\n    {\n1: \"In the beginning God created the heaven and the earth. \",\n2: \"And the earth was without form, and void; and darkness was upon the face of the deep. \"\n   \"And the Spirit of God moved upon the face of the waters. \",\n3: \"And God said, Let there be light: and there was light. \",\n4: \"And God saw the light, that it was good: and God divided the light from the darkness. \",\n5: \"And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day. \",\n6: \"And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters. \",\n7: \"And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: \"",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_2",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_2 = \\\n    {\n1: \"Thus the heavens and the earth were finished, and all the host of them. \",\n2: \"And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made. \",\n3: \"And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made. \",\n4: \"These are the generations of the heavens and of the earth when they were created, in the day that the Lord God made the earth and the heavens, \",\n5: \"And every plant of the field before it was in the earth, and every herb of the field before it grew: for the Lord God had not caused \"\n   \"it to rain upon the earth, and there was not a man to till the ground. \",\n6: \"But there went up a mist from the earth, and watered the whole face of the ground. \",\n7: \"And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_3",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_3 = \\\n    {\n1: \"Now the serpent was more subtil than any beast of the field which the Lord God had made. And he said unto the woman, \"\n   \"Yea, hath God said, Ye shall not eat of every tree of the garden? \",\n2: \"And the woman said unto the serpent, We may eat of the fruit of the trees of the garden: \",\n3: \"But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, \"\n   \"neither shall ye touch it, lest ye die. \",\n4: \"And the serpent said unto the woman, Ye shall not surely die: \",\n5: \"For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil. \",\n6: \"And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, \"",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_4",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_4 = \\\n    {\n1: \"And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the Lord. \",\n2: \"And she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground. \",\n3: \"And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the Lord. \",\n4: \"And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the Lord had respect unto Abel and to his offering: \",\n5: \"But unto Cain and to his offering he had not respect. And Cain was very wroth, and his countenance fell. \",\n6: \"And the Lord said unto Cain, Why art thou wroth? and why is thy countenance fallen? \",\n7: \"If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, \"\n   \"and thou shalt rule over him. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_5",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_5 = \\\n    {\n1: \"This is the book of the generations of Adam. In the day that God created man, \"\n   \"in the likeness of God made he him;\",\n2: \"Male and female created he them; and blessed them, and called their name Adam, \"\n   \"in the day when they were created.\",\n3: \"And Adam lived an hundred and thirty years, and begat a son in his own likeness, and after his image; \"\n   \"and called his name Seth:\",\n4: \"And the days of Adam after he had begotten Seth were eight hundred years: and he begat sons and daughters:\",\n5: \"And all the days that Adam lived were nine hundred and thirty years: and he died.\",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_6",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_6 = \\\n    {\n1: \"And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them, \",\n2: \"That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose. \",\n3: \"And the Lord said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years. \",\n4: \"There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, \"\n   \"and they bare children to them, the same became mighty men which were of old, men of renown. \",\n5: \"And God saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of \"\n   \"his heart was only evil continually. \",\n6: \"And it repented the Lord that he had made man on the earth, and it grieved him at his heart. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_7",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_7 = \\\n    {\n1: \"And the Lord said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation. \",\n2: \"Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, \"\n   \"the male and his female. \",\n3: \"Of fowls also of the air by sevens, the male and the female; to keep seed alive upon the face of all the earth. \",\n4: \"For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that \"\n   \"I have made will I destroy from off the face of the earth. \",\n5: \"And Noah did according unto all that the Lord commanded him. \",\n6: \"And Noah was six hundred years old when the flood of waters was upon the earth. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_8",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_8 = \\\n    {\n1: \"And God remembered Noah, and every living thing, and all the cattle that was with him in the ark: \"\n   \"and God made a wind to pass over the earth, and the waters assuaged;\",\n2: \"The fountains also of the deep and the windows of heaven were stopped, and the rain from heaven was restrained;\",\n3: \"And the waters returned from off the earth continually: and after the end of the hundred and fifty days the waters were abated.\",\n4: \"And the ark rested in the seventh month, on the seventeenth day of the month, upon the mountains of Ararat.\",\n5: \"And the waters decreased continually until the tenth month: in the tenth month, on the first day of the month, \"\n   \"were the tops of the mountains seen.\",\n6: \"And it came to pass at the end of forty days, that Noah opened the window of the ark which he had made:\",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_9",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_9 = \\\n    {\n1: \"And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth. \",\n2: \"And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, \"\n   \"upon all that moveth upon the earth, and upon all the fishes of the sea; into your hand are they delivered. \",\n3: \"Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things. \",\n4: \"But flesh with the life thereof, which is the blood thereof, shall ye not eat. \",\n5: \"And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; \"\n   \"at the hand of every man's brother will I require the life of man. \",\n6: \"Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_10",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_10 = \\\n    {\n1: \"Now these are the generations of the sons of Noah, Shem, Ham, and Japheth: and unto them were sons born after the flood. \",\n2: \"The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras. \",\n3: \"And the sons of Gomer; Ashkenaz, and Riphath, and Togarmah. \",\n4: \"And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim. \",\n5: \"By these were the isles of the Gentiles divided in their lands; every one after his tongue, after their families, in their nations. \",\n6: \"And the sons of Ham; Cush, and Mizraim, and Phut, and Canaan. \",\n7: \"And the sons of Cush; Seba, and Havilah, and Sabtah, and Raamah, and Sabtechah: and the sons of Raamah; Sheba, and Dedan. \",\n8: \"And Cush begat Nimrod: he began to be a mighty one in the earth. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_11",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_11 = \\\n    {\n1: \"And the whole earth was of one language, and of one speech. \",\n2: \"And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; \"\n   \"and they dwelt there. \",\n3: \"And they said one to another, Go to, let us make brick, and burn them thoroughly. \"\n   \"And they had brick for stone, and slime had they for morter. \",\n4: \"And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; \"\n   \"and let us make us a name, lest we be scattered abroad upon the face of the whole earth. \",\n5: \"And the Lord came down to see the city and the tower, which the children of men builded. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_12",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_12 = \\\n    {\n1: \"Now the Lord had said unto Abram, Get thee out of thy country, and from thy kindred, \"\n   \"and from thy father's house, unto a land that I will shew thee: \",\n2: \"And I will make of thee a great nation, and I will bless thee, and make thy name great; \"\n   \"and thou shalt be a blessing: \",\n3: \"And I will bless them that bless thee, and curse him that curseth thee: and in thee shall \"\n   \"all families of the earth be blessed. \",\n4: \"So Abram departed, as the Lord had spoken unto him; and Lot went with him: and \"\n   \"Abram was seventy and five years old when he departed out of Haran. \",",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_13",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfGenesis",
-        "description": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "peekOfCode": "chapter_13 = \\\n    {\n    }",
-        "detail": "Bible_Content.KingJamesVersion.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfGenesis",
         "documentation": {}
     },
     {
         "label": "chapter_1",
         "kind": 5,
-        "importPath": "Bible_Content.KingJamesVersion.BookOfJude",
-        "description": "Bible_Content.KingJamesVersion.BookOfJude",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfJude",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfJude",
         "peekOfCode": "chapter_1 = \\\n    {\n1: \"Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, \"\n   \"and preserved in Jesus Christ, and called: \",\n2: \"Mercy unto you, and peace, and love, be multiplied.\",\n3: \"Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, \"\n   \"and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.\" ,\n4: \"For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men\" \n    \"turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ. \",\n5: \"I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, \"",
-        "detail": "Bible_Content.KingJamesVersion.BookOfJude",
-        "documentation": {}
-    },
-    {
-        "label": "Njb_Genesis",
-        "kind": 6,
-        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "description": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
-        "peekOfCode": "class Njb_Genesis:\n    genesis_1 = \\\n        {\n    1: \"In the beginning God created heaven and earth.\",\n    2: \"Now the earth was a formless void, there was darkness over the deep, with a divine wind sweeping over the deep, with a divine wind sweeping over the waters.\",\n    3: \"God said, 'Let there be light,' and there was light.\",\n    4: \"God saw that light was good, and God divided light from darkness.\",\n    5: \"God called light 'day', and darkness he called 'night'. Evening came and morning came: the first day.\",\n    6: \"God said, 'Let there be a vault through the middle of the waters to divide the waters in two.' And so it was.\",\n    7: \"God made the vault, and it divided the waters under the vault from the waters above the vault.\",",
-        "detail": "Bible_Content.TheNewJerusalemBible.BookOfGenesis",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.KingJamesVersion.BookOfJude",
         "documentation": {}
     },
     {
         "label": "jude1",
         "kind": 5,
-        "importPath": "Bible_Content.TheNewJerusalemBible.BookOfJude",
-        "description": "Bible_Content.TheNewJerusalemBible.BookOfJude",
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Content.TheNewJerusalemBible.BookOfJude",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Content.TheNewJerusalemBible.BookOfJude",
         "peekOfCode": "jude1 = \\\n    {\n        1: \"From Jude, servant of Jesus Christ and brother of James; to those who are called, \"\n           \"to those who are dear to God the Father and kept safe for Jesus Christ,\",\n        2: \"mercy, peace and love be yours in abundance.\",\n        3: \"My dear friends, at a time when I was eagerly looking forward to writing to you about the \"\n           \"salvation that we all share, I felt that I must write to you encouraging you to fight \"\n           \"hard for the faith which has been once and for all entrusted to God's holy people.\",\n        4: \"Certain people have infiltrated among you, who were long ago marked down for condemnation on this account; \"\n           \"without any reverence they pervert the grace of our God to debauchery and deny all religion, \"",
-        "detail": "Bible_Content.TheNewJerusalemBible.BookOfJude",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Content.TheNewJerusalemBible.BookOfJude",
         "documentation": {}
     },
     {
-        "label": "Concerning",
+        "label": "no_chapters",
+        "kind": 2,
+        "importPath": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "description": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "peekOfCode": "def no_chapters(book: str, chapters:int)-> List:\n    _list = []\n    for num_ in range(chapters):\n        _list.append(f\"{book} {num_ + 1}\")\n    return _list\n#print(no_chapters(\"Genesis\", 31))\nfrom Bible_Content_Organisation_And_Display.Bible_Books import *\nfrom Bible_Content.TheNewJerusalemBible.BookOfGenesis import *\ndef sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []",
+        "detail": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "sort_A_to_Z",
+        "kind": 2,
+        "importPath": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "description": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "peekOfCode": "def sort_A_to_Z(what_to_sort: list[str]):\n    sorted_ = []\n    print(len(what_to_sort))\n    while len(what_to_sort) > 0:\n        mini = min(what_to_sort)\n        print(mini)\n        sorted_.append(mini)\n        what_to_sort.remove(mini)\n    print(len(sorted_))\ndef allBooks():",
+        "detail": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "allBooks",
+        "kind": 2,
+        "importPath": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "description": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "peekOfCode": "def allBooks():\n    for book in wholeBible:\n        print(book)\nnew_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": Njb_Genesis.genesis_1, \"Chapter 2\": Njb_Genesis.genesis_2, \"Chapter 3\": Njb_Genesis.genesis_3, \"Chapter 4\": Njb_Genesis.genesis_4}\n}",
+        "detail": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "new_jerusalem",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "description": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "peekOfCode": "new_jerusalem = {\n    \"Genesis\": {\"Chapter 1\": Njb_Genesis.genesis_1, \"Chapter 2\": Njb_Genesis.genesis_2, \"Chapter 3\": Njb_Genesis.genesis_3, \"Chapter 4\": Njb_Genesis.genesis_4}\n}",
+        "detail": "Bible_Content_Organisation_And_Display.bibleCompilation",
+        "documentation": {}
+    },
+    {
+        "label": "BibleOperationActions",
         "kind": 6,
-        "importPath": "Bible_References.concernings",
-        "description": "Bible_References.concernings",
-        "peekOfCode": "class Concerning:\n    def __init__(self, topic):\n        super().__init__()\n        self.topic = topic\n    concerningList= {1: \"Wisdom\",\n                     2: \"Enlightenment\",\n                     3: \"\"}\nclass BibleReferences:\n    versesWisdomEnlightenmentUnderstanding = {1: f\"Genesis 1 vs. 3 : {Genesis.chapterOne[3]}\"}\n    def __init__(self):",
-        "detail": "Bible_References.concernings",
+        "importPath": "Bible_Content_Organisation_And_Display.bibleOperationActions",
+        "description": "Bible_Content_Organisation_And_Display.bibleOperationActions",
+        "peekOfCode": "class BibleOperationActions:\n    @staticmethod\n    def minVerse(*chapterContent):\n        pass\n    @staticmethod\n    def maxVerse(*chapterContent):\n        pass\n    @staticmethod\n    def getChapterByVersion( version: str, book: str,chapter:int ):\n        try:",
+        "detail": "Bible_Content_Organisation_And_Display.bibleOperationActions",
         "documentation": {}
     },
     {
-        "label": "BibleReferences",
+        "label": "oldTestament",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "peekOfCode": "oldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\", \"Samuel 1\",\n                \"Samuel 2\", \"Kings 1\", \"Kings 2\", \"Chronicles 1\", \"Chronicles 2\", \"Ezra\", \"Nehemiah\", \"Esther\",\"Job\",\n                \"Psalms\", \"Proverbs\", \"Ecclesiastes\", \"Song of Songs\", \"Isaiah\", \"Jeremiah\", \"Lamentations\",\n                \"Ezekiel\", \"Daniel\", \"Hosea\", \"Joel\", \"Amos\", \"Obadiah\", \"Jonah\", \"Micah\", \"Nahum\", \"Habakkuk\",\n                \"Zephaniah\", \"Haggai\", \"Zechariah\", \"Malachi\"]\ndeuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther Greek\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"Maccabees 1\", \"Maccabees 2\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"Corinthians 1\", \"Corinthians 2\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"Thessalonians 1\", \"Thessalonians 2\", \"Timothy 1\", \"Timothy 2\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"Peter 1\", \"Peter 2\", \"John 1\", \"John 2\", \"John 3\", \"Jude\", \"Revelation\" ]",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "deuterocanonical_Testament",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "peekOfCode": "deuterocanonical_Testament = [\"Tobit\", \"Judith\", \"Esther Greek\", \"Wisdom of Solomon\", \"Sirach\", \"Baruch\", \"Letter of Jeremiah\",\n                             \"Song of the Three Young Men\", \"Susana\", \"Bel and the Dragon\", \"Maccabees 1\", \"Maccabees 2\"]\nnewTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"Corinthians 1\", \"Corinthians 2\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"Thessalonians 1\", \"Thessalonians 2\", \"Timothy 1\", \"Timothy 2\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"Peter 1\", \"Peter 2\", \"John 1\", \"John 2\", \"John 3\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "newTestament",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "peekOfCode": "newTestament = [\"Matthew\", \"Mark\", \"Luke\", \"John\", \"Acts\", \"Romans\", \"Corinthians 1\", \"Corinthians 2\", \"Galatians\", \"Ephesians\", \"Philippians\",\n                \"Colossians\", \"Thessalonians 1\", \"Thessalonians 2\", \"Timothy 1\", \"Timothy 2\", \"Titus\", \"Philemon\", \"Hebrews\", \"James\",\n                \"Peter 1\", \"Peter 2\", \"John 1\", \"John 2\", \"John 3\", \"Jude\", \"Revelation\" ]\nwholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "wholeBible",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "peekOfCode": "wholeBible = oldTestament + deuterocanonical_Testament + newTestament\npentecostalBible = oldTestament + newTestament",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "pentecostalBible",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "description": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "peekOfCode": "pentecostalBible = oldTestament + newTestament",
+        "detail": "Bible_Content_Organisation_And_Display.Bible_Books",
+        "documentation": {}
+    },
+    {
+        "label": "bibleVersions",
+        "kind": 5,
+        "importPath": "Bible_Content_Organisation_And_Display.Translations",
+        "description": "Bible_Content_Organisation_And_Display.Translations",
+        "peekOfCode": "bibleVersions = catholicBible + pentecostalBible",
+        "detail": "Bible_Content_Organisation_And_Display.Translations",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_MainWindow",
         "kind": 6,
-        "importPath": "Bible_References.concernings",
-        "description": "Bible_References.concernings",
-        "peekOfCode": "class BibleReferences:\n    versesWisdomEnlightenmentUnderstanding = {1: f\"Genesis 1 vs. 3 : {Genesis.chapterOne[3]}\"}\n    def __init__(self):\n        super().__init__()\n    def getWisdomEnlightenmentUnderstanding(self):\n        for a in self.versesWisdomEnlightenmentUnderstanding.values():\n            print(a)\n        return \"\"\nprint(BibleReferences().getWisdomEnlightenmentUnderstanding())",
-        "detail": "Bible_References.concernings",
+        "importPath": "Bible_Organisation_And_Display.bible_ui_files.Bible_ui_ui",
+        "description": "Bible_Organisation_And_Display.bible_ui_files.Bible_ui_ui",
+        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(1149, 542)\n        font = QFont()\n        font.setPointSize(10)\n        font.setBold(True)\n        MainWindow.setFont(font)\n        icon = QIcon()",
+        "detail": "Bible_Organisation_And_Display.bible_ui_files.Bible_ui_ui",
         "documentation": {}
     },
     {
-        "label": "bin_dir",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": "venv.Scripts.activate_this",
+        "label": "BibleEdit",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.bibleEdit",
+        "description": "Bible_Organisation_And_Display.bibleEdit",
+        "peekOfCode": "class BibleEdit(Edit_Display):\n    def __init__(self):\n        super().__init__()\n    # Inherited\n    # Function for Quitting the App\n    def quit_the_app(self):\n        self.close()\n    # Embeds all signals and slots that switch window display\n    # Inherited\n    def window_switching_button_actions(self):",
+        "detail": "Bible_Organisation_And_Display.bibleEdit",
         "documentation": {}
     },
     {
-        "label": "base",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
-        "detail": "venv.Scripts.activate_this",
+        "label": "BibleBooksButtons",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.bible_books_buttons",
+        "description": "Bible_Organisation_And_Display.bible_books_buttons",
+        "peekOfCode": "class BibleBooksButtons(ChapterButtons):\n    def __init__(self):\n        super().__init__()\n        self.spaced_books = [\"1 Samuel\", \"2 Samuel\", \"1 Kings\", \"2 Kings\", \"1 Chronicles\", \"2 Chronicles\",\"Song of Songs\",\n                             \"Esther (Greek)\", \"Wisdom of Solomon\", \"Letter of Jeremiah\", \"Song of the Three Young Men\", \"Bel and the Dragon\", \"1 Maccabees\", \"2 Maccabees\",\n                             \"1 Corinthians\", \"2 Corinthians\", \"1 Thessalonians\", \"2 Thessalonians\", \"1 Timothy\", \"2 Timothy\", \"1 Peter\", \"2 Peter\", \"1 John\", \"2 John\", \"3 John\"]\n        self.oldTestament = [\"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\", \"Joshua\", \"Judges\", \"Ruth\",\n                        \"Samuel 1\",\n                        \"Samuel 2\", \"Kings 1\", \"Kings 2\", \"Chronicles 1\", \"Chronicles 2\", \"Ezra\", \"Nehemiah\", \"Esther\",\n                        \"Job\",",
+        "detail": "Bible_Organisation_And_Display.bible_books_buttons",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"PATH\"]",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": "venv.Scripts.activate_this",
+        "label": "Bible_Window_Organisation",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.bible_Window_Organisation",
+        "description": "Bible_Organisation_And_Display.bible_Window_Organisation",
+        "peekOfCode": "class Bible_Window_Organisation(BibleBooksButtons):\n    def __init__(self):\n        super().__init__()\n        self.setupUi(self)\n        \"\"\"From Edit Display\"\"\"\n        # Controls when the deuterocanonical books-buttons are displayed\n        self.tabWidget.currentChanged.connect(self.show_hide_deuterocanonical_books)\n        # Inherited from the edit_Display class, in edit_Display file\n        self.setTexts()\n        # Sets the windows that display by default",
+        "detail": "Bible_Organisation_And_Display.bible_Window_Organisation",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"VIRTUAL_ENV\"]",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "label": "ChapterButtons",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.chapter_buttons",
+        "description": "Bible_Organisation_And_Display.chapter_buttons",
+        "peekOfCode": "class ChapterButtons(BibleEdit):\n    def __init__(self):\n        super().__init__()\n    def add_to_gn_tab(self, chapter:int):\n        pass\n    def add_to_amp_tab(self, chapter:int):\n        pass\n    def add_to_kjv_tab(self, chapter:int):\n        pass\n    def add_to_njb_tab(self, book_name: str):",
+        "detail": "Bible_Organisation_And_Display.chapter_buttons",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "label": "Edit_Display",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.edit_Display",
+        "description": "Bible_Organisation_And_Display.edit_Display",
+        "peekOfCode": "class Edit_Display(QMainWindow,Ui_MainWindow):\n    def __init__(self):\n        super().__init__()\n        # Contains all the object_names of the deuterocanonical books buttons\n        self.deu_books_obj_names = (\"tobit\", \"judith\", \"esther_greek\", \"wisdom_of_solomon\", \"sirach\", \"baruch\",\n                          \"letter_of_jeremiah\", \"song_of_the_three_young_men\", \"susana\", \"bel_and_the_dragon\",\n                          \"maccabees_1\", \"maccabees_2\")\n    # Embedded\n    # Function That Hides or Displays The Left-Scroll-Area Widget\n    def toggle_menu(self):",
+        "detail": "Bible_Organisation_And_Display.edit_Display",
         "documentation": {}
     },
     {
-        "label": "prev_length",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "label": "Ui_MainWindow",
+        "kind": 6,
+        "importPath": "Bible_Organisation_And_Display.ui_Bible_ui",
+        "description": "Bible_Organisation_And_Display.ui_Bible_ui",
+        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(1149, 542)\n        font = QFont()\n        font.setPointSize(10)\n        font.setBold(True)\n        MainWindow.setFont(font)\n        icon = QIcon()",
+        "detail": "Bible_Organisation_And_Display.ui_Bible_ui",
         "documentation": {}
     },
     {
-        "label": "sys.path[:]",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "label": "Bible_Study_Characters",
+        "kind": 6,
+        "importPath": "Bible_Study_Character.bible_Study_Character",
+        "description": "Bible_Study_Character.bible_Study_Character",
+        "peekOfCode": "class Bible_Study_Characters:\n    def __init__(self):\n        super().__init__()\n        #self.topic = topic\n    characters_list= { \"David\": [],\n                     \"a\": [],\n                     \"\": [],}\n    def show_characters(self)->list[str]:\n        characters = []\n        for character in self.characters_list:",
+        "detail": "Bible_Study_Character.bible_Study_Character",
         "documentation": {}
     },
     {
-        "label": "sys.real_prefix",
-        "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "label": "Bible_Study_Topics",
+        "kind": 6,
+        "importPath": "Bible_Study_Topics.bible_Study_Topics",
+        "description": "Bible_Study_Topics.bible_Study_Topics",
+        "peekOfCode": "class Bible_Study_Topics:\n    def __init__(self):\n        super().__init__()\n        #self.topic = topic\n    topics_list= { \"Wisdom\": [],\n                     \"Enlightenment\": [],\n                     \"Strength\": [],\n                   \"Stewardship\": [\"\"],\n                   \"Ancestry\": [\"Hebrews 7 vs 10\"],\n                   \"Secrets of God Handed Unto Men\": [\"Matthew 2 vs 9 - 12\"],",
+        "detail": "Bible_Study_Topics.bible_Study_Topics",
         "documentation": {}
     },
     {
-        "label": "sys.prefix",
+        "label": "find_widget_",
+        "kind": 2,
+        "importPath": "needful_extra_functions",
+        "description": "needful_extra_functions",
+        "peekOfCode": "def find_widget_(parent_widget: PySide6.QtWidgets.QWidget, child_widget_type: PySide6.QtWidgets.QWidget ,widget_object_name: str):\n    widget = parent_widget.findChild(child_widget_type, widget_object_name)\n    return widget",
+        "detail": "needful_extra_functions",
+        "documentation": {}
+    },
+    {
+        "label": "app",
         "kind": 5,
-        "importPath": "venv.Scripts.activate_this",
-        "description": "venv.Scripts.activate_this",
-        "peekOfCode": "sys.prefix = base",
-        "detail": "venv.Scripts.activate_this",
+        "importPath": "_Bible_Run_File",
+        "description": "_Bible_Run_File",
+        "peekOfCode": "app = QApplication(sys.argv)\nwindow = Bible_Window_Organisation()\nwindow.show()\nsys.exit(app.exec())\n\"\"\"Windows involved\n-> Bible Fun Facts\n-> Bible Study Plan\n-> Bible Study Topics\n-> Bible Study Character \n-> Bible Settings",
+        "detail": "_Bible_Run_File",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "_Bible_Run_File",
+        "description": "_Bible_Run_File",
+        "peekOfCode": "window = Bible_Window_Organisation()\nwindow.show()\nsys.exit(app.exec())\n\"\"\"Windows involved\n-> Bible Fun Facts\n-> Bible Study Plan\n-> Bible Study Topics\n-> Bible Study Character \n-> Bible Settings\n\"\"\"",
+        "detail": "_Bible_Run_File",
         "documentation": {}
     }
 ]
